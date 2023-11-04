@@ -15,11 +15,30 @@
     font-family: Roboto Medium;
 }
 
+ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+
+li{
+list-style-type: none;
+}
+
+
+a{
+color:currentColor;
+text-decoration:none
+}
+
 
 
 /* header */
 .header {
-    
+width: 1600px;
+height: 80px;
+flex-shrink: 0;
 }
 
 
@@ -28,6 +47,13 @@
 
 
 .header__nav {
+color: var(--title-color);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
 }
 
 
@@ -35,15 +61,36 @@
 }
 
 
-.header__nav__item {
+.header__nav__item:hover {
+color: var(--link-color);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
 }
 
 
 .header__list {
+color: var(--main-text-color);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
 }
 
 
-.header__item {
+.header__item:hover {
+    color: var(--link-color);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
 }
 
 
