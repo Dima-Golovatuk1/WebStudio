@@ -14,8 +14,9 @@
 </head>
 
 <body class="body">
+    <!-- header -->
     <header class="header">
-        <a class="header__logo" href="#">WebStudio</a>
+        <a class="header__logo" href="#">Web<span class="header__logo2">Studio</span></a>
         <nav class="header__nav">
             <ul class="header__nav__list">
                 <li class="header__nav__item"><a href="#">Студія</a></li>
@@ -28,59 +29,63 @@
             <li class="header__item"><a href="tel:380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
-    <main>
-        <section>
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button type="button">Замовити послугу</button>
+
+    <!-- main -->
+    <main class="main">
+        <section class="main__section">
+            <h1 class="main__section__titel">Ефективні рішення для вашого бізнесу</h1>
+            <button class="main__section__button" type="button">Замовити послугу</button>
         </section>
-        <section>
-            <ul>
-                <li><h3>УВАГА ДО ДЕТАЛЕЙ</h3><p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p></li>
-                <li><h3>ПУНКТУАЛЬНІСТЬ</h3><p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
-                <li><h3>ПЛАНУВАННЯ</h3><p>Так само консультація з широким активом значною мірою зумовлює.</p></li>
-                <li><h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3><p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li>
+        <section class="main__section__info">
+            <ul class="main__section__info__list">
+                <li class="info__item"><h3 class="info__item__title">УВАГА ДО ДЕТАЛЕЙ</h3><p class="info__item__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p></li>
+                <li class="info__item"><h3 class="info__item__title">ПУНКТУАЛЬНІСТЬ</h3><p class="info__item__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
+                <li class="info__item"><h3 class="info__item__title">ПЛАНУВАННЯ</h3><p class="info__item__text">Так само консультація з широким активом значною мірою зумовлює.</p></li>
+                <li class="info__item"><h3 class="info__item__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3><p class="info__item__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li>
             </ul>
         </section>
-        <section>
-            <h2>Чим ми займаємося</h2>
-            <ul>
-                <li><img src="./img/about/img1.jpg" alt="робота за планшетом та комп'ютером" width="250"></li>
-                <li><img src="./img/about/img2.jpg" alt="робота за ноутбуком" width="250"></li>
-                <li><img src="./img/about/img3.jpg" alt="робота за планшетом" width="250"></li>
+        <section class="main__section__doing">
+            <h2 class="main__section__doing__title">Чим ми займаємося</h2>
+            <ul class="main__section__doing__list">
+                <li class="doing__list__item" ><img src="./img/about/img1.jpg" alt="робота за планшетом та комп'ютером" width="250"></li>
+                <li class="doing__list__item"><img src="./img/about/img2.jpg" alt="робота за ноутбуком" width="250"></li>
+                <li class="doing__list__item"><img src="./img/about/img3.jpg" alt="робота за планшетом" width="250"></li>
             </ul>
         </section>
-        <section>
-            <h2>Наша команда</h2>
-            <ul>
-                <li>
-                    <img src="./img/team/Igor.jpg" alt="Чодовік в коречневій рубашці в окулярах та з охайною бородою і світлим волосям" width="250">
-                    <h4>Ігор Дем'яненко</h4>
-                    <p>Product Designer</p>
+        <section class="main__section_team">
+            <h2 class="main__section_team__titel">Наша команда</h2>
+            <ul class="main__section_team__list">
+                <li class="team__list__item">
+                    <img class="team__list__item__img" src="./img/team/Igor.jpg" alt="Чодовік в коречневій рубашці в окулярах та з охайною бородою і світлим волосям" width="250">
+                    <h4 class="team__list__item__title">Ігор Дем'яненко</h4>
+                    <p class="team__list__item__text">Product Designer</p>
                 </li>
-                <li>
-                    <img src="./img/team/Olga.jpg" alt="Жінка в окудях з світлим волосям та в чорному піджаку" width="250">
-                    <h4>Ольга Рєпіна</h4>
-                    <p>Frontend Developer</p>
+                <li class="team__list__item">
+                    <img class="team__list__item__img" src="./img/team/Olga.jpg" alt="Жінка в окудях з світлим волосям та в чорному піджаку" width="250">
+                    <h4 class="team__list__item__title">Ольга Рєпіна</h4>
+                    <p class="team__list__item__text">Frontend Developer</p>
                 </li>
-                <li>
-                    <img src="./img/team/Mukola.jpg" alt="Чоловік в синій рубашці та темносвітлим волосям" width="250">
-                    <h4>Микола Тарасов</h4>
-                    <p>Marketing</p>
+                <li class="team__list__item">
+                    <img class="team__list__item__img" src="./img/team/Mukola.jpg" alt="Чоловік в синій рубашці та темносвітлим волосям" width="250">
+                    <h4 class="team__list__item__title">Микола Тарасов</h4>
+                    <p class="team__list__item__text">Marketing</p>
                 </li>
-                <li>
-                    <img src="./img/team/Mihail.jpg" alt="Чоловік в чорній кофті з окулярами, бородою і темним волосям " height="250">
-                    <h4>Михайло Єрмаков</h4>
-                    <p>UI Designer</p>
+                <li class="team__list__item">
+                    <img class="team__list__item__img" src="./img/team/Mihail.jpg" alt="Чоловік в чорній кофті з окулярами, бородою і темним волосям " height="250">
+                    <h4 class="team__list__item__title">Михайло Єрмаков</h4>
+                    <p class="team__list__item__text">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-            <li><a href="https://maps.app.goo.gl/rt9b87Akdebz7ouV6" target="_blank" rel="noopener norefferrer">м. Київ, пр-т Лесі Українки, 26</a></li>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:380961111111">+38 096 111 11 11</a></li>
+
+    <!-- footer -->
+    <footer class="footer">
+        <a class="header__logo" href="#">Web<span class="header__logo2">Studio</span></a>
+        <ul class="footer__list">
+            <li class="footer__list__item__map"><a href="https://maps.app.goo.gl/rt9b87Akdebz7ouV6" target="_blank" rel="noopener norefferrer">м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li class="footer__list__item__email"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="footer__list__item__tel"><a href="tel:380961111111">+38 096 111 11 11</a></li>
         </ul>
     </footer>
 </body>

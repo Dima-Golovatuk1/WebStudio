@@ -10,10 +10,13 @@
 
 
 
-
+/* Body */
 .body{
-    font-family: Roboto Medium;
+font-family: Roboto Medium;
+width: 1600px;
+height: 2346px;
 }
+
 
 ul{
 margin: 0;
@@ -34,15 +37,56 @@ text-decoration:none
 
 
 
-/* header */
+
+/* Header */
+.header__logo{
+color: #2196F3;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
+.header__logo2{
+color: #000;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
+
 .header {
 width: 1600px;
 height: 80px;
 flex-shrink: 0;
+background: #FFF;
 }
 
 
-.header__logo {
+.header__logo1{
+color: var(--logo-color);
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
+
+.header__logo2{
+color: var(--logo-color2);
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
 }
 
 
@@ -54,10 +98,6 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
-}
-
-
-.header__nav__list {
 }
 
 
@@ -93,5 +133,177 @@ line-height: normal;
 letter-spacing: 0.28px;
 }
 
+
+
+/* Main */
+.main__section {
+width: 1600px;
+height: 600px;
+flex-shrink: 0;
+
+background: #2F303A;
+}
+
+
+.main__section__titel {
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; /* 136.364% */
+letter-spacing: 2.64px;
+text-transform: uppercase;
+}
+
+
+.main__section__button {
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+}
+
+
+.info__item__title {
+    color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+
+.info__item__text {
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
+
+.main__section__doing__title {
+color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+
+
+.doing__list__item {
+width: 370px;
+height: 294px;
+flex-shrink: 0;
+}
+
+
+.main__section_team__titel {
+color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+
+
+.team__list__item__img {
+width: 270px;
+height: 260px;
+flex-shrink: 0;
+}
+
+
+.team__list__item__title {
+color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+
+
+.team__list__item__text {
+color: #757575;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+
+
+
+/* footer */
+.footer {
+width: 1600px;
+height: 252px;
+flex-shrink: 0;
+background: #2F303A;
+}
+
+
+.footer__list__item__map {
+width: 231px;
+height: 21px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
+
+.footer__list__item__email {
+width: 136px;
+height: 21px;
+flex-shrink: 0;
+color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
+
+.footer__list__item__tel {
+width: 231px;
+height: 21px;
+flex-shrink: 0;
+color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
 
 
