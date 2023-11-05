@@ -11,7 +11,7 @@
 
 
 /* Body */
-.body{
+body{
 font-family: Roboto Medium;
 width: 1600px;
 height: 2346px;
@@ -40,20 +40,18 @@ text-decoration:none
 
 /* Header */
 .header__logo{
-color: #2196F3;
+color: var(--logo-color);
 font-family: Raleway;
 font-size: 26px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
 }
 
 .header__logo2{
-color: #000;
+color: var(--logo-color2);
 font-family: Raleway;
 font-size: 26px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
@@ -72,7 +70,6 @@ background: #FFF;
 color: var(--logo-color);
 font-family: Raleway;
 font-size: 26px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
@@ -83,7 +80,6 @@ letter-spacing: 0.78px;
 color: var(--logo-color2);
 font-family: Raleway;
 font-size: 26px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
@@ -94,7 +90,6 @@ letter-spacing: 0.78px;
 color: var(--title-color);
 font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
@@ -105,7 +100,6 @@ letter-spacing: 0.28px;
 color: var(--link-color);
 font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
@@ -116,7 +110,6 @@ letter-spacing: 0.28px;
 color: var(--main-text-color);
 font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
@@ -127,7 +120,6 @@ letter-spacing: 0.28px;
     color: var(--link-color);
 font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
@@ -136,7 +128,7 @@ letter-spacing: 0.28px;
 
 
 /* Main */
-.main__section {
+.section {
 width: 1600px;
 height: 600px;
 flex-shrink: 0;
@@ -145,36 +137,36 @@ background: #2F303A;
 }
 
 
-.main__section__titel {
+.section__titele {
 color: #FFF;
 text-align: center;
 font-family: Roboto;
 font-size: 44px;
-font-style: normal;
 font-weight: 900;
-line-height: 60px; /* 136.364% */
+line-height: 136.364%; 
 letter-spacing: 2.64px;
 text-transform: uppercase;
 }
 
 
-.main__section__button {
+.section__button {
 color: #FFF;
 text-align: center;
 font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 700;
-line-height: 30px; /* 187.5% */
+line-height: 187.5%; 
 letter-spacing: 0.96px;
 }
 
 
-.info__item__title {
+/* advantages */
+
+
+.advantages__item__title {
     color: #212121;
 font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
@@ -182,34 +174,38 @@ text-transform: uppercase;
 }
 
 
-.info__item__text {
+.advantages__item__text {
     color: #757575;
 font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 171.429% */
+line-height: 171.429%; 
 letter-spacing: 0.42px;
 }
 
 
-.main__section__doing__title {
+/* works */
+
+
+.section__works__title {
 color: #212121;
 text-align: center;
 font-family: Roboto;
 font-size: 36px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
 }
 
 
-.doing__list__item {
+.works__item {
 width: 370px;
 height: 294px;
 flex-shrink: 0;
 }
+
+
+/* team */
 
 
 .main__section_team__titel {
@@ -217,7 +213,6 @@ color: #212121;
 text-align: center;
 font-family: Roboto;
 font-size: 36px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
@@ -236,7 +231,6 @@ color: #212121;
 text-align: center;
 font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.48px;
@@ -248,7 +242,6 @@ color: #757575;
 text-align: center;
 font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.48px;
@@ -272,9 +265,8 @@ flex-shrink: 0;
 color: #FFF;
 font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 171.429% */
+line-height: 171.429%; 
 letter-spacing: 0.42px;
 }
 
@@ -286,9 +278,8 @@ flex-shrink: 0;
 color: rgba(255, 255, 255, 0.60);
 font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 171.429% */
+line-height: 171.429%;
 letter-spacing: 0.42px;
 }
 
@@ -300,9 +291,8 @@ flex-shrink: 0;
 color: rgba(255, 255, 255, 0.60);
 font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 171.429% */
+line-height: 171.429%;
 letter-spacing: 0.42px;
 }
 
