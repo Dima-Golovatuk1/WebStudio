@@ -39,6 +39,14 @@ text-decoration:none
 
 
 /* Header */
+header {
+width: 1600px;
+height: 80px;
+flex-shrink: 0;
+background: #FFF;
+}
+
+
 .header__logo{
 color: var(--logo-color);
 font-family: Raleway;
@@ -48,35 +56,7 @@ line-height: normal;
 letter-spacing: 0.78px;
 }
 
-.header__logo2{
-color: var(--logo-color2);
-font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
-}
-
-
-.header {
-width: 1600px;
-height: 80px;
-flex-shrink: 0;
-background: #FFF;
-}
-
-
-.header__logo1{
-color: var(--logo-color);
-font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
-}
-
-
-.header__logo2{
+.header__logo__color{
 color: var(--logo-color2);
 font-family: Raleway;
 font-size: 26px;
@@ -98,11 +78,6 @@ letter-spacing: 0.28px;
 
 .header__nav__item:hover {
 color: var(--link-color);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
 }
 
 
@@ -110,21 +85,15 @@ letter-spacing: 0.28px;
 color: var(--main-text-color);
 font-family: Roboto;
 font-size: 14px;
+font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
 }
-
-
-.header__item:hover {
-    color: var(--link-color);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+.header__item__mail:hover,
+.header__item__tel:hover{
+    color:var(--link-color)
 }
-
 
 
 /* Main */
@@ -208,7 +177,7 @@ flex-shrink: 0;
 /* team */
 
 
-.main__section_team__titel {
+.section__team__titel {
 color: #212121;
 text-align: center;
 font-family: Roboto;
@@ -219,14 +188,14 @@ letter-spacing: 1.08px;
 }
 
 
-.team__list__item__img {
+.team__item__img {
 width: 270px;
 height: 260px;
 flex-shrink: 0;
 }
 
 
-.team__list__item__title {
+.team__item__title {
 color: #212121;
 text-align: center;
 font-family: Roboto;
@@ -237,7 +206,7 @@ letter-spacing: 0.48px;
 }
 
 
-.team__list__item__text {
+.team__item__text {
 color: #757575;
 text-align: center;
 font-family: Roboto;
@@ -250,7 +219,7 @@ letter-spacing: 0.48px;
 
 
 /* footer */
-.footer {
+footer {
 width: 1600px;
 height: 252px;
 flex-shrink: 0;
@@ -258,7 +227,29 @@ background: #2F303A;
 }
 
 
-.footer__list__item__map {
+.footer__logo{
+    color: #2196F3;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
+
+.footer__logo__color{
+    color: #FFF;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
+
+.footer__item__map {
 width: 231px;
 height: 21px;
 flex-shrink: 0;
@@ -271,7 +262,7 @@ letter-spacing: 0.42px;
 }
 
 
-.footer__list__item__email {
+.footer__item__email {
 width: 136px;
 height: 21px;
 flex-shrink: 0;
@@ -284,7 +275,7 @@ letter-spacing: 0.42px;
 }
 
 
-.footer__list__item__tel {
+.footer__item__tel {
 width: 231px;
 height: 21px;
 flex-shrink: 0;
