@@ -38,7 +38,7 @@ text-decoration:none
 
 
 
-/* Header */
+                            /* Header */
 header {
 width: 1600px;
 height: 80px;
@@ -96,7 +96,77 @@ letter-spacing: 0.28px;
 }
 
 
-/* Main */
+                            /* footer */
+footer {
+    width: 1600px;
+    height: 252px;
+    flex-shrink: 0;
+    background: #2F303A;
+    }
+    
+    
+    .footer__logo{
+        color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    }
+    
+    
+    .footer__logo__color{
+        color: #FFF;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    }
+    
+    
+    .footer__item__map {
+    width: 231px;
+    height: 21px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171.429%; 
+    letter-spacing: 0.42px;
+    }
+    
+    
+    .footer__item__email {
+    width: 136px;
+    height: 21px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171.429%;
+    letter-spacing: 0.42px;
+    }
+    
+    
+    .footer__item__tel {
+    width: 231px;
+    height: 21px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171.429%;
+    letter-spacing: 0.42px;
+    }
+
+
+                            /* Main webstudio*/
 .section {
 width: 1600px;
 height: 600px;
@@ -217,74 +287,43 @@ letter-spacing: 0.48px;
 }
 
 
-
-/* footer */
-footer {
-width: 1600px;
-height: 252px;
-flex-shrink: 0;
-background: #2F303A;
+                             /*main portfolio  */
+.portfolio__list__button {
+    color: #212121;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 162.5%; 
+letter-spacing: 0.48px;
 }
 
 
-.footer__logo{
-    color: #2196F3;
-font-family: Raleway;
-font-size: 26px;
+.portfolio__item__button:hover {
+color:#FFF;
+}
+
+.portfolio__img {
+width: 370px;
+height: 294px;
+flex-shrink: 0;
+}
+.portfolio__titele {
+color: #212121;
+font-family: Roboto;
+font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
+line-height: 200% ; 
+letter-spacing: 1.08px;
 }
-
-
-.footer__logo__color{
-    color: #FFF;
-font-family: Raleway;
-font-size: 26px;
+.portfolio__text {
+color: #757575;
+font-family: Roboto;
+font-size: 16px;
 font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
-}
-
-
-.footer__item__map {
-width: 231px;
-height: 21px;
-flex-shrink: 0;
-color: #FFF;
-font-family: Roboto;
-font-size: 14px;
 font-weight: 400;
-line-height: 171.429%; 
-letter-spacing: 0.42px;
+line-height: 187.5%; 
+letter-spacing: 0.48px;
 }
-
-
-.footer__item__email {
-width: 136px;
-height: 21px;
-flex-shrink: 0;
-color: rgba(255, 255, 255, 0.60);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 171.429%;
-letter-spacing: 0.42px;
-}
-
-
-.footer__item__tel {
-width: 231px;
-height: 21px;
-flex-shrink: 0;
-color: rgba(255, 255, 255, 0.60);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 171.429%;
-letter-spacing: 0.42px;
-}
-
 
