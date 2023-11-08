@@ -56,7 +56,7 @@ line-height: normal;
 letter-spacing: 0.78px;
 }
 
-.header__logo__color{
+.header__logo--color{
 color: var(--logo-color2);
 font-family: Raleway;
 font-size: 26px;
@@ -81,7 +81,7 @@ color: var(--link-color);
 }
 
 
-.header__list {
+.header__contacts--list {
 color: var(--main-text-color);
 font-family: Roboto;
 font-size: 14px;
@@ -90,8 +90,10 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
 }
-.header__item__mail:hover,
-.header__item__tel:hover{
+.header__contacts--list__item__mail:hover,
+.header__contacts--list__item__tel:hover,
+.header__contacts--list__item__tel:focus,
+.header__contacts--list__item__mail:focus{
     color:var(--link-color)
 }
 
@@ -116,7 +118,7 @@ footer {
     }
     
     
-    .footer__logo__color{
+    .footer__logo--color{
         color: #FFF;
     font-family: Raleway;
     font-size: 26px;
@@ -127,7 +129,7 @@ footer {
     }
     
     
-    .footer__item__map {
+    .footer__contacts--item__map {
     width: 231px;
     height: 21px;
     flex-shrink: 0;
@@ -140,7 +142,7 @@ footer {
     }
     
     
-    .footer__item__email {
+    .footer__contacts--item__email {
     width: 136px;
     height: 21px;
     flex-shrink: 0;
@@ -153,7 +155,7 @@ footer {
     }
     
     
-    .footer__item__tel {
+    .footer__contacts--item__tel {
     width: 231px;
     height: 21px;
     flex-shrink: 0;
