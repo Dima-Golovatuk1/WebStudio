@@ -1,11 +1,9 @@
 :root {
-    --logo-color: #2196F3;
     --logo-color2:  #000000;
     --link-color: #2196F3;
     --title-color: #212121;
     --main-text-color: #757575;
     --logo-footer-color: #FFFFFF;
-    --footer-addres-color: #FFFFFF99;
 }
 
 
@@ -13,8 +11,6 @@
 /* Body */
 body{
 font-family: Roboto Medium;
-width: 1600px;
-height: 2346px;
 }
 
 
@@ -39,20 +35,11 @@ text-decoration:none
 
 
                             /* Header */
-header {
-width: 1600px;
-height: 80px;
-flex-shrink: 0;
-background: #FFF;
-}
-
-
 .header__logo{
-color: var(--logo-color);
+color: var(--link-color);
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
-line-height: normal;
 letter-spacing: 0.78px;
 }
 
@@ -61,106 +48,61 @@ color: var(--logo-color2);
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
-line-height: normal;
 letter-spacing: 0.78px;
 }
 
 
 .header__nav {
 color: var(--title-color);
-font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
-line-height: normal;
 letter-spacing: 0.28px;
 }
 
 
-.header__nav__item:hover {
+.header__nav__item__link:hover {
 color: var(--link-color);
 }
 
 
-.header__contacts--list {
+.header__contacts__list {
 color: var(--main-text-color);
-font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 500;
-line-height: normal;
 letter-spacing: 0.28px;
 }
-.header__contacts--list__item__mail:hover,
-.header__contacts--list__item__tel:hover,
-.header__contacts--list__item__tel:focus,
-.header__contacts--list__item__mail:focus{
+
+
+.header__contacts__item__link:hover,
+.header__contacts__item__link:focus{
     color:var(--link-color)
 }
 
 
                             /* footer */
-footer {
-    width: 1600px;
-    height: 252px;
-    flex-shrink: 0;
-    background: #2F303A;
-    }
-    
-    
     .footer__logo{
-        color: #2196F3;
+        color: var(--link-color);
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.78px;
     }
     
     
     .footer__logo--color{
-        color: #FFF;
+        color: var(--logo-footer-color);
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.78px;
     }
     
     
-    .footer__contacts--item__map {
-    width: 231px;
-    height: 21px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 171.429%; 
-    letter-spacing: 0.42px;
-    }
-    
-    
-    .footer__contacts--item__email {
-    width: 136px;
-    height: 21px;
-    flex-shrink: 0;
-    color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 171.429%;
-    letter-spacing: 0.42px;
-    }
-    
-    
-    .footer__contacts--item__tel {
+    .footer__contacts--item__link {
     width: 231px;
     height: 21px;
     flex-shrink: 0;
     color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 171.429%;
@@ -169,19 +111,9 @@ footer {
 
 
                             /* Main webstudio*/
-.section {
-width: 1600px;
-height: 600px;
-flex-shrink: 0;
-
-background: #2F303A;
-}
-
-
-.section__titele {
-color: #FFF;
+.section--hero__titele {
+color: var(--logo-footer-color);
 text-align: center;
-font-family: Roboto;
 font-size: 44px;
 font-weight: 900;
 line-height: 136.364%; 
@@ -190,10 +122,9 @@ text-transform: uppercase;
 }
 
 
-.section__button {
-color: #FFF;
+.section--hero__button {
+color: var(--logo-footer-color);
 text-align: center;
-font-family: Roboto;
 font-size: 16px;
 font-weight: 700;
 line-height: 187.5%; 
@@ -205,19 +136,16 @@ letter-spacing: 0.96px;
 
 
 .advantages__item__title {
-    color: #212121;
-font-family: Roboto;
+    color: var(--title-color);
 font-size: 14px;
 font-weight: 700;
-line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
 
 
 .advantages__item__text {
-    color: #757575;
-font-family: Roboto;
+    color: var(--main-text-color);
 font-size: 14px;
 font-weight: 400;
 line-height: 171.429%; 
@@ -229,17 +157,15 @@ letter-spacing: 0.42px;
 
 
 .section__works__title {
-color: #212121;
+color: var(--title-color);
 text-align: center;
-font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
-line-height: normal;
 letter-spacing: 1.08px;
 }
 
 
-.works__item {
+.works__item__img {
 width: 370px;
 height: 294px;
 flex-shrink: 0;
@@ -249,13 +175,11 @@ flex-shrink: 0;
 /* team */
 
 
-.section__team__titel {
-color: #212121;
+.team__titel {
+color: var(--title-color);
 text-align: center;
-font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
-line-height: normal;
 letter-spacing: 1.08px;
 }
 
@@ -268,33 +192,28 @@ flex-shrink: 0;
 
 
 .team__item__title {
-color: #212121;
+color: var(--title-color);
 text-align: center;
-font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
-line-height: normal;
 letter-spacing: 0.48px;
 }
 
 
 .team__item__text {
-color: #757575;
+color: var(--main-text-color);
 text-align: center;
-font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
-line-height: normal;
 letter-spacing: 0.48px;
 }
 
 
                              /*main portfolio  */
 .portfolio__list__button {
-    color: #212121;
+color: var(--title-color);
 text-align: center;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 162.5%; 
 letter-spacing: 0.48px;
@@ -302,28 +221,24 @@ letter-spacing: 0.48px;
 
 
 .portfolio__item__button:hover {
-color:#FFF;
+color:var(--logo-footer-color);
 }
 
-.portfolio__img {
+.project--item__img {
 width: 370px;
 height: 294px;
 flex-shrink: 0;
 }
-.portfolio__titele {
-color: #212121;
-font-family: Roboto;
+.project--item__title {
+color: var(--title-color);
 font-size: 18px;
-font-style: normal;
 font-weight: 700;
 line-height: 200% ; 
 letter-spacing: 1.08px;
 }
-.portfolio__text {
-color: #757575;
-font-family: Roboto;
+.project--item__text {
+color: var(--main-text-color);
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 187.5%; 
 letter-spacing: 0.48px;
