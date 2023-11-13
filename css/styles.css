@@ -10,7 +10,7 @@
 
 /* Body */
 body{
-font-family: Roboto Medium;
+font-family: "Roboto Medium", sans-serif;
 }
 
 
@@ -37,7 +37,7 @@ text-decoration:none
                             /* Header */
 .header__logo{
 color: var(--link-color);
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
@@ -45,7 +45,7 @@ letter-spacing: 0.78px;
 
 .header__logo--color{
 color: var(--logo-color2);
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
@@ -82,7 +82,7 @@ letter-spacing: 0.28px;
                             /* footer */
     .footer__logo{
         color: var(--link-color);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.78px;
@@ -91,7 +91,7 @@ letter-spacing: 0.28px;
     
     .footer__logo--color{
         color: var(--logo-footer-color);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.78px;
