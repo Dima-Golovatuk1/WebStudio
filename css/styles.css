@@ -10,7 +10,7 @@
 
 /* Body */
 body{
-font-family: "Roboto Medium", sans-serif;
+font-family: "Roboto", sans-serif;
 }
 
 
@@ -45,10 +45,6 @@ letter-spacing: 0.78px;
 
 .header__logo--color{
 color: var(--logo-color2);
-font-family: "Raleway", sans-serif;
-font-size: 26px;
-font-weight: 700;
-letter-spacing: 0.78px;
 }
 
 
@@ -73,8 +69,8 @@ letter-spacing: 0.28px;
 }
 
 
-.header__contacts__item__link:hover,
-.header__contacts__item__link:focus{
+.header__contacts--item__link:hover,
+.header__contacts--item__link:focus{
     color:var(--link-color)
 }
 
@@ -98,7 +94,7 @@ letter-spacing: 0.28px;
     }
     
     
-    .footer__contacts--item__link {
+    .footer__contacts__link {
     width: 231px;
     height: 21px;
     flex-shrink: 0;
@@ -111,7 +107,10 @@ letter-spacing: 0.28px;
 
 
                             /* Main webstudio*/
-.section--hero__titele {
+/* hero */
+
+
+.hero__title {
 color: var(--logo-footer-color);
 text-align: center;
 font-size: 44px;
@@ -122,7 +121,7 @@ text-transform: uppercase;
 }
 
 
-.section--hero__button {
+.hero__button {
 color: var(--logo-footer-color);
 text-align: center;
 font-size: 16px;
@@ -175,7 +174,7 @@ flex-shrink: 0;
 /* team */
 
 
-.team__titel {
+.team__title {
 color: var(--title-color);
 text-align: center;
 font-size: 36px;
@@ -210,7 +209,8 @@ letter-spacing: 0.48px;
 
 
                              /*main portfolio  */
-.portfolio__list__button {
+/* button */
+.portfolio__button__list {
 color: var(--title-color);
 text-align: center;
 font-size: 16px;
@@ -220,15 +220,19 @@ letter-spacing: 0.48px;
 }
 
 
-.portfolio__item__button:hover {
+.portfolio__button__item:hover {
 color:var(--logo-footer-color);
 }
 
+
+/* project */
 .project--item__img {
 width: 370px;
 height: 294px;
 flex-shrink: 0;
 }
+
+
 .project--item__title {
 color: var(--title-color);
 font-size: 18px;
@@ -236,6 +240,8 @@ font-weight: 700;
 line-height: 200% ; 
 letter-spacing: 1.08px;
 }
+
+
 .project--item__text {
 color: var(--main-text-color);
 font-size: 16px;
