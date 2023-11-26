@@ -14,26 +14,6 @@ font-family: "Roboto", sans-serif;
 }
 
 
-ul{
-margin: 0;
-padding: 0;
-list-style: none;
-}
-
-
-li{
-list-style-type: none;
-}
-
-
-a{
-color:currentColor;
-text-decoration:none
-}
-
-
-
-
                             /* Header */
 .header__logo{
 color: var(--link-color);
