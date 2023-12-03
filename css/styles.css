@@ -21,6 +21,11 @@ font-family: "Roboto", sans-serif;
 }
 
 
+.container section{
+    margin-bottom: 94px;
+}
+
+
                             /* Header */
 .header__logo{
 color: var(--link-color);
