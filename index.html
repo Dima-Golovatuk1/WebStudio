@@ -10,20 +10,23 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!-- header -->
-    <div class="container">
-        <header class="header">
+    <header class="header">
+        <div class="container">
             <a class="header__logo" href="#">Web<span class="header__logo--color">Studio</span></a>
             <nav class="header__nav">
                 <ul class="header__nav__list">
                     <li class="header__nav__item"><a class="header__nav__item__link" href="./index.html">Студія</a></li>
-                    <li class="header__nav__item"><a class="header__nav__item__link" href="./portfolio.html">Портфоліо</a>
+                    <li class="header__nav__item"><a class="header__nav__item__link"
+                            href="./portfolio.html">Портфоліо</a>
                     </li>
                     <li class="header__nav__item"><a class="header__nav__item__link" href="#">Контакти</a></li>
                 </ul>
@@ -31,105 +34,123 @@
             <ul class="header__contacts__list">
                 <li class="header__contacts__item"><a class="header__contacts--item__link"
                         href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="header__contacts__item"><a class="header__contacts--item__link" href="tel:380961111111">+38 096
+                <li class="header__contacts__item"><a class="header__contacts--item__link" href="tel:380961111111">+38
+                        096
                         111 11 11</a></li>
             </ul>
-        </header>
-    </div>
+        </div>
+    </header>
 
     <!-- main -->
-    <div class="container">
-        <main>
+
+    <main>
+        <div class="container">
             <!-- hero -->
             <section class="hero">
-                <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-                <button class="hero__button" type="button">Замовити послугу</button>
+                <div class="container">
+                    <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+                    <button class="hero__button" type="button">Замовити послугу</button>
+                </div>
             </section>
             <!-- advantages -->
             <section class="advantages">
-                <ul class="advantages__list">
-                    <li class="advantages__item">
-                        <h3 class="advantages__item__title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                        <p class="advantages__item__text">Ідейні міркування, і навіть початок повсякденної роботи з
-                            формування позиції.</p>
-                    </li>
-                    <li class="advantages__item">
-                        <h3 class="advantages__item__title">ПУНКТУАЛЬНІСТЬ</h3>
-                        <p class="advantages__item__text">Завдання організації, особливо рамки і місце навчання кадрів тягне
-                            у себе.</p>
-                    </li>
-                    <li class="advantages__item">
-                        <h3 class="advantages__item__title">ПЛАНУВАННЯ</h3>
-                        <p class="advantages__item__text">Так само консультація з широким активом значною мірою зумовлює.
-                        </p>
-                    </li>
-                    <li class="advantages__item">
-                        <h3 class="advantages__item__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                        <p class="advantages__item__text">Значимість цих проблем настільки очевидна, що реалізація планових
-                            завдань.</p>
-                    </li>
-                </ul>
+                <div class="container">
+                    <ul class="advantages__list">
+                        <li class="advantages__item">
+                            <h3 class="advantages__item__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                            <p class="advantages__item__text">Ідейні міркування, і навіть початок повсякденної роботи з
+                                формування позиції.</p>
+                        </li>
+                        <li class="advantages__item">
+                            <h3 class="advantages__item__title">ПУНКТУАЛЬНІСТЬ</h3>
+                            <p class="advantages__item__text">Завдання організації, особливо рамки і місце навчання
+                                кадрів
+                                тягне
+                                у себе.</p>
+                        </li>
+                        <li class="advantages__item">
+                            <h3 class="advantages__item__title">ПЛАНУВАННЯ</h3>
+                            <p class="advantages__item__text">Так само консультація з широким активом значною мірою
+                                зумовлює.
+                            </p>
+                        </li>
+                        <li class="advantages__item">
+                            <h3 class="advantages__item__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                            <p class="advantages__item__text">Значимість цих проблем настільки очевидна, що реалізація
+                                планових
+                                завдань.</p>
+                        </li>
+                    </ul>
+                </div>
             </section>
             <!-- works -->
             <section class="works">
-                <h2 class="works__title">Чим ми займаємося</h2>
-                <ul class="works__list">
-                    <li class="works__item"><img class="works__item__img" src="./img/about/img1.jpg"
-                            alt="робота за планшетом та комп'ютером" width="250"></li>
-                    <li class="works__item"><img class="works__item__img" src="./img/about/img2.jpg"
-                            alt="робота за ноутбуком" width="250"></li>
-                    <li class="works__item"><img class="works__item__img" src="./img/about/img3.jpg"
-                            alt="робота за планшетом" width="250"></li>
-                </ul>
+                <div class="container">
+                    <h2 class="works__title">Чим ми займаємося</h2>
+                    <ul class="works__list">
+                        <li class="works__item"><img class="works__item__img" src="./img/about/img1.jpg"
+                                alt="робота за планшетом та комп'ютером" width="250"></li>
+                        <li class="works__item"><img class="works__item__img" src="./img/about/img2.jpg"
+                                alt="робота за ноутбуком" width="250"></li>
+                        <li class="works__item"><img class="works__item__img" src="./img/about/img3.jpg"
+                                alt="робота за планшетом" width="250"></li>
+                    </ul>
+                </div>
             </section>
             <!-- team -->
             <section class="team">
-                <h2 class="team__title">Наша команда</h2>
-                <ul class="team__list">
-                    <li class="team__item">
-                        <img class="team__item__img" src="./img/team/Igor.jpg"
-                            alt="Чодовік в коречневій рубашці в окулярах та з охайною бородою і світлим волосям"
-                            width="250">
-                        <h4 class="team__item__title">Ігор Дем'яненко</h4>
-                        <p class="team__item__text">Product Designer</p>
-                    </li>
-                    <li class="team__item">
-                        <img class="team__item__img" src="./img/team/Olga.jpg"
-                            alt="Жінка в окудях з світлим волосям та в чорному піджаку" width="250">
-                        <h4 class="team__item__title">Ольга Рєпіна</h4>
-                        <p class="team__item__text">Frontend Developer</p>
-                    </li>
-                    <li class="team__item">
-                        <img class="team__item__img" src="./img/team/Mukola.jpg"
-                            alt="Чоловік в синій рубашці та темносвітлим волосям" width="250">
-                        <h4 class="team__item__title">Микола Тарасов</h4>
-                        <p class="team__item__text">Marketing</p>
-                    </li>
-                    <li class="team__item">
-                        <img class="team__item__img" src="./img/team/Mihail.jpg"
-                            alt="Чоловік в чорній кофті з окулярами, бородою і темним волосям " height="250">
-                        <h4 class="team__item__title">Михайло Єрмаков</h4>
-                        <p class="team__item__text">UI Designer</p>
-                    </li>
-                </ul>
+                <div class="container">
+                    <h2 class="team__title">Наша команда</h2>
+                    <ul class="team__list">
+                        <li class="team__item">
+                            <img class="team__item__img" src="./img/team/Igor.jpg"
+                                alt="Чодовік в коречневій рубашці в окулярах та з охайною бородою і світлим волосям"
+                                width="250">
+                            <h4 class="team__item__title">Ігор Дем'яненко</h4>
+                            <p class="team__item__text">Product Designer</p>
+                        </li>
+                        <li class="team__item">
+                            <img class="team__item__img" src="./img/team/Olga.jpg"
+                                alt="Жінка в окудях з світлим волосям та в чорному піджаку" width="250">
+                            <h4 class="team__item__title">Ольга Рєпіна</h4>
+                            <p class="team__item__text">Frontend Developer</p>
+                        </li>
+                        <li class="team__item">
+                            <img class="team__item__img" src="./img/team/Mukola.jpg"
+                                alt="Чоловік в синій рубашці та темносвітлим волосям" width="250">
+                            <h4 class="team__item__title">Микола Тарасов</h4>
+                            <p class="team__item__text">Marketing</p>
+                        </li>
+                        <li class="team__item">
+                            <img class="team__item__img" src="./img/team/Mihail.jpg"
+                                alt="Чоловік в чорній кофті з окулярами, бородою і темним волосям " height="250">
+                            <h4 class="team__item__title">Михайло Єрмаков</h4>
+                            <p class="team__item__text">UI Designer</p>
+                        </li>
+                    </ul>
+                </div>
             </section>
-        </main>
-    </div>
+        </div>
+    </main>
+
 
     <!-- footer -->
-    <div class="container">
-        <footer class="footer">
+    <footer class="footer">
+        <div class="container">
             <a class="footer__logo" href="#">Web<span class="footer__logo--color">Studio</span></a>
             <ul class="footer__contacts__list">
                 <li class="footer__contacts__item"><a class="footer__contacts__link"
-                        href="https://maps.app.goo.gl/rt9b87Akdebz7ouV6" target="_blank" rel="noopener norefferrer">м. Київ,
+                        href="https://maps.app.goo.gl/rt9b87Akdebz7ouV6" target="_blank" rel="noopener norefferrer">м.
+                        Київ,
                         пр-т Лесі Українки, 26</a></li>
                 <li class="footer__contacts__item"><a class="footer__contacts__link"
                         href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="footer__contacts__item"><a class="footer__contacts__link" href="tel:380961111111">+38 096 111 11
+                <li class="footer__contacts__item"><a class="footer__contacts__link" href="tel:380961111111">+38 096 111
+                        11
                         11</a></li>
             </ul>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
+
 </html>
