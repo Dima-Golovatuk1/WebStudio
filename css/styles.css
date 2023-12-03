@@ -14,6 +14,13 @@ font-family: "Roboto", sans-serif;
 }
 
 
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
                             /* Header */
 .header__logo{
 color: var(--link-color);
