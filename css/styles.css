@@ -29,7 +29,7 @@ section{
 
 
                             /* Header */
-.header .container  {
+.header  .container{ 
     display: flex;
     align-items: center;
     padding:25px 0 ;
@@ -55,7 +55,7 @@ margin-right: 93px;
 .header__nav__list{
     display: flex;
     gap: 50px;
-    margin-right: 344px;
+    margin-right: 344px; 
 }
 
 
@@ -159,6 +159,7 @@ letter-spacing: 2.64px;
 text-transform: uppercase;
 width: 692px;
 margin: 0 auto;
+padding-top: 200px;
 }
 
 
