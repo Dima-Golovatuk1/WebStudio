@@ -185,29 +185,33 @@ margin-bottom: 200px;
 }
 
 
+.advantages__item::before{
+    content: "";
+    display: block;
+    background-size: 70px 70px;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+}
+
+
+
 .advantages__item:nth-child(1)::before{
     content: "";
     display: block;
     background-image: url('../img/advantages/antenna.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 70px 70px;
-    border-radius: 4px;
-    background-color: #F5F4FA;
-    width: 270px;
-    height: 120px;
 }
+
+
 .advantages__item:nth-child(2)::before{
     content: "";
     display: block;
     background-image: url('../img/advantages/clock.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 70px 70px;
-    border-radius: 4px;
-background-color: #F5F4FA;
-    width: 270px;
-    height: 120px;
 }
 .advantages__item:nth-child(3)::before{
     content: "";
@@ -215,11 +219,6 @@ background-color: #F5F4FA;
     background-image: url('../img/advantages/diagram.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 70px 70px;
-    border-radius: 4px;
-background-color: #F5F4FA;
-    width: 270px;
-    height: 120px;
 }
 .advantages__item:nth-child(4)::before{
     content: "";
@@ -227,11 +226,6 @@ background-color: #F5F4FA;
     background-image: url('../img/advantages/astronaut.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 70px 70px;
-    border-radius: 4px;
-background-color: #F5F4FA;
-    width: 270px;
-    height: 120px;
 }
 
 
