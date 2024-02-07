@@ -148,7 +148,8 @@ gap: 50px;
     url('../img/Img.png');
 background-color: #2F303A;
 background-repeat: no-repeat;
-background-size: 100%;
+background-position: center;
+background-size: cover;
 height: 600px;
 }
 
