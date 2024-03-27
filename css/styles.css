@@ -430,6 +430,11 @@ border-radius: 50%;
 }
 
 
+.partners{
+    padding: 94px 0;
+}
+
+
 .partners__title-icons {
     color: #212121;
 text-align: center;
@@ -437,7 +442,7 @@ font-family: "Roboto", sans-serif;
 font-size: 36px;
 font-weight: 700;
 letter-spacing: 1.08px;
-padding-top: 94px;
+padding-bottom: 50px;
 }
 
 
