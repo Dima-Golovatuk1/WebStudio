@@ -349,7 +349,9 @@ height: 70px;
 width: 370px;
 position: absolute;
 bottom: 0px;
-
+display: flex;
+align-items:center;
+justify-content: center;
 }
 
 
