@@ -18,6 +18,7 @@
 </head>
 
 <body>
+
     <!-- header -->
     <header class="header">
         <div class="container">
@@ -61,7 +62,7 @@
         <section class="hero section">
             <div class="container">
                 <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-                <button class="hero__button" type="button">Замовити послугу</button>
+                <button class="hero__button" type="button" data-modal-open>Замовити послугу</button>
             </div>
         </section>
         <!-- advantages -->
@@ -370,7 +371,6 @@
                             </svg>
                         </a>
                     </li>
-
                     <li class="footer__item__icons">
                         <a href="">
                             <svg class="footer__item__icon">
@@ -378,7 +378,6 @@
                             </svg>
                         </a>
                     </li>
-
                     <li class="footer__item__icons">
                         <a href="">
                             <svg class="footer__item__icon">
@@ -386,7 +385,6 @@
                             </svg>
                         </a>
                     </li>
-
                     <li class="footer__item__icons">
                         <a href="">
                             <svg class="footer__item__icon">
@@ -396,8 +394,26 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="footer__div">
+                <h3 class="footer__title">Підпишіться на розсилку</h3>
+                <form class="footer__form">
+                    <label class="footer__form__label" for="email"></label>
+                    <input class="footer__form__input" type="email" id="email" placeholder="E-mail">
+                    <button class="footer__form__button" type="submit">Subscribe <svg class="footer__form__button__icon"> <use href="./img/icons/symbol-defs.svg#icon-icon-send"></use></svg></button>
+                </form>
+            </div>
         </div>
     </footer>
+
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="btn" data-modal-close>Закрити</button>
+            <p>dfsdfs</p>
+        </div>
+    </div>
+    <script src="./modal.js"></script>
 </body>
 
 </html>
