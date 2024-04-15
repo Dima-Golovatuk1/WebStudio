@@ -64,6 +64,32 @@
                 <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
                 <button class="hero__button" data-modal-open type="button">Замовити послугу</button>
             </div>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button class="close__button" data-modal-close>Закрити</button>
+                    <form class="hero__form">
+                        <h2 class="hero__form__title">Залиште свої дані, ми вам передзвонимо</h2>
+                        <label class="hero__form__label" for="name">Ім'я</label>
+                        <input class="hero__form__input" type="name" id="name" placeholder="">
+
+                        <label class="hero__form__label" for="tel">Телефон</label>
+                        <input class="hero__form__input" type="tel" id="tel" placeholder="">
+
+                        <label class="hero__form__label" for="email">Пошта</label>
+                        <input class="hero__form__input" type="email" id="email" placeholder="">
+
+                        <label class="hero__form__label-comment" for="textarea">Коментар</label>
+                        <input class="hero__form__input-comment" type="text" id="textarea" placeholder="Введіть текст">
+
+                        <div class="hero__form__div">
+                        <input class="hero__form__label-confirmation" type="checkbox" id="terms" name="terms" required>
+                        <label class="hero__form__input-confirmation" for="terms">Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a></label>
+                        </div>
+
+                        <button class="hero__form__button" type="button">Відправити</button>
+                    </form>
+                </div>
+            </div>
         </section>
         <!-- advantages -->
         <section class="advantages section">
@@ -398,22 +424,14 @@
             <div class="footer__div">
                 <h3 class="footer__title">Підпишіться на розсилку</h3>
                 <form class="footer__form">
-                    <label class="footer__form__label" for="email"></label>
-                    <input class="footer__form__input" type="email" id="email" placeholder="E-mail">
+                    <label class="footer__form__label" for="emaill"></label>
+                    <input class="footer__form__input" type="email" id="emaill" placeholder="E-mail">
                     <button class="footer__form__button" type="submit">Subscribe <svg class="footer__form__button__icon"> <use href="./img/icons/symbol-defs.svg#icon-icon-send"></use></svg></button>
                 </form>
             </div>
         </div>
     </footer>
-
-    <button class="btn-open" data-modal-open>Відкрити модалку</button>
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button class="btn" data-modal-close>Закрити</button>
-            <p>dfsdfs</p>
-        </div>
-    </div>
-    <script src="./modal.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
