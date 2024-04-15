@@ -680,7 +680,7 @@ letter-spacing: 0.48px;
 }
 
 
-/* .no-scroll {
+.no-scroll {
     overflow: hidden;
 }
 
@@ -694,4 +694,4 @@ letter-spacing: 0.48px;
     padding: 15px;
     background-color: skyblue;
     transform: translate(-50%, -50%);
-} */
+}
