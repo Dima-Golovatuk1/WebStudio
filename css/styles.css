@@ -457,6 +457,12 @@ letter-spacing: 0.42px;
 }
 
 
+.hero__form__input-confirmation__link{
+    color: #2196F3;
+    text-decoration: underline;
+}
+
+
 .hero__form__div{
     gap:5px;
     display: flex;
