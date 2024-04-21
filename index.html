@@ -64,54 +64,6 @@
                 <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
                 <button class="hero__button" data-modal-open type="button">Замовити послугу</button>
             </div>
-            <div class="backdrop is-hidden" data-modal>
-                <div class="modal">
-                    <button class="close__button" data-modal-close><svg class="close__button__icon">
-                            <use href="./img/icons/symbol-defs.svg#icon-close"></use>
-                        </svg></button>
-                    <form class="hero__form">
-                        <h2 class="hero__form__title">Залиште свої дані, ми вам передзвонимо</h2>
-                        <label class="hero__form__label" for="name">Ім'я</label>
-                        <div class="modal__imput__thumb">
-                            <input class="hero__form__input" type="text" id="name" placeholder="">
-                            <svg class="hero__form__input-icon">
-                                <use href="./img/icons/symbol-defs.svg#icon-person-black"></use>
-                            </svg>
-                        </div>
-
-
-                        <label class="hero__form__label" for="tel">Телефон</label>
-                        <div class="modal__imput__thumb">
-                            <input class="hero__form__input" type="tel" id="tel" placeholder="">
-                            <svg class="hero__form__input-icon">
-                                <use href="./img/icons/symbol-defs.svg#icon-phone"></use>
-                            </svg>
-                        </div>
-
-
-                        <label class="hero__form__label" for="email">Пошта</label>
-                        <div class="modal__imput__thumb">
-                            <input class="hero__form__input" type="email" id="email" placeholder="">
-                            <svg class="hero__form__input-icon">
-                                <use href="./img/icons/symbol-defs.svg#icon-email"></use>
-                            </svg>
-                        </div>
-
-                        <label class="hero__form__label-comment" for="textarea">Коментар</label>
-                        <textarea class="hero__form__input-comment" name="textarea" id="textarea" cols="30" rows="10"
-                            placeholder="Введіть текст"></textarea>
-
-                        <div class="hero__form__div">
-                            <input class="hero__form__label-confirmation" type="checkbox" id="terms" name="terms"
-                                required>
-                            <label class="hero__form__input-confirmation" for="terms">Погоджуюся з розсилкою та приймаю
-                                <a class="hero__form__input-confirmation__link" href="#">Умови договору</a></label>
-                        </div>
-
-                        <button class="hero__form__button">Відправити</button>
-                    </form>
-                </div>
-            </div>
         </section>
         <!-- advantages -->
         <section class="advantages section">
@@ -458,6 +410,61 @@
             </div>
         </div>
     </footer>
+    <!--modal  -->
+                <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button class="close__button" data-modal-close><svg class="close__button__icon">
+                            <use href="./img/icons/symbol-defs.svg#icon-close"></use>
+                        </svg></button>
+                    <form class="hero__form">
+                        <h2 class="hero__form__title">Залиште свої дані, ми вам передзвонимо</h2>
+                        <div>
+                        <label class="hero__form__label" for="name">Ім'я</label>
+                        <div class="modal__imput__thumb">
+                            <input class="hero__form__input" type="text" id="name" placeholder="">
+                            <svg class="hero__form__input-icon">
+                                <use href="./img/icons/symbol-defs.svg#icon-person-black"></use>
+                            </svg>
+                        </div>
+                        </div>
+
+                        <div>
+                        <label class="hero__form__label" for="tel">Телефон</label>
+                        <div class="modal__imput__thumb">
+                            <input class="hero__form__input" type="tel" id="tel" placeholder="">
+                            <svg class="hero__form__input-icon">
+                                <use href="./img/icons/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                        </div>
+                        </div>
+
+                        <div>
+                        <label class="hero__form__label" for="email">Пошта</label>
+                        <div class="modal__imput__thumb">
+                            <input class="hero__form__input" type="email" id="email" placeholder="">
+                            <svg class="hero__form__input-icon">
+                                <use href="./img/icons/symbol-defs.svg#icon-email"></use>
+                            </svg>
+                        </div>
+                        </div>
+
+                        <div class="div__comment">
+                        <label class="hero__form__label-comment" for="textarea">Коментар</label>
+                        <textarea class="hero__form__input-comment" name="textarea" id="textarea" cols="30" rows="10"
+                            placeholder="Введіть текст"></textarea>
+                        </div>
+
+                        <div class="hero__form__div">
+                            <input class="hero__form__input-confirmation" type="checkbox" id="terms" name="terms"
+                                required>
+                            <label class="hero__form__label-confirmation" for="terms">Погоджуюся з розсилкою та приймаю
+                                <a class="hero__form__label-confirmation__link" href="#">Умови договору</a></label>
+                        </div>
+
+                        <button class="hero__form__button">Відправити</button>
+                    </form>
+                </div>
+            </div>
     <script src="./js/modal.js"></script>
 </body>
 

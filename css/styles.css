@@ -406,6 +406,7 @@ body {
 
 .modal__imput__thumb {
     position: relative;
+    margin-top: 4px;
 }
 
 
@@ -417,13 +418,23 @@ body {
     padding-left: 42px;
     cursor: pointer;
     box-sizing: border-box;
+
+}
+
+
+.hero__form__input:focus{
+    outline: none;
+}
+
+
+.hero__form__input:focus .hero__form__input-icon{
+    fill: #2196F3;
 }
 
 
 .hero__form__input-icon {
     width: 18px;
     height: 18px;
-    /* fill: #212121; */
     position: absolute;
     left: 12px;
     top: 50%;
@@ -432,13 +443,38 @@ body {
 
 
 .hero__form__input:hover,
-.hero__form__input:focus {
+.hero__form__input:focus{
+    border: 1px solid #2196F3;
+}
+
+
+.div__comment{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+.hero__form__input-comment:focus{
+    outline: none;
+}
+
+
+.hero__form__input-comment:focus,
+.hero__form__input-comment:hover{
+    border-radius: 4px;
     border: 1px solid #2196F3;
 }
 
 
 .hero__form__label-comment {
-    margin-bottom: 4px;
+    color: #757575;
+font-family: "Roboto", sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
 }
 
 
@@ -458,13 +494,20 @@ body {
 }
 
 
-.hero__form__label-confirmation {
-    width: 16px;
-    height: 15px;
+.hero__form__input-confirmation:focus{
+    outline: none;
+
 }
 
 
 .hero__form__input-confirmation {
+    width: 16px;
+    height: 15px;
+
+}
+
+
+.hero__form__label-confirmation {
     color: #757575;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -474,7 +517,7 @@ body {
 }
 
 
-.hero__form__input-confirmation__link {
+.hero__form__label-confirmation__link {
     color: #2196F3;
     text-decoration: underline;
 }
