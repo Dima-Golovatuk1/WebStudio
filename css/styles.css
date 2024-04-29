@@ -427,7 +427,7 @@ body {
 }
 
 
-.hero__form__input:focus .hero__form__input-icon{
+.hero__form__input:focus + .hero__form__input-icon{
     fill: #2196F3;
 }
 
