@@ -10,7 +10,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -22,19 +24,24 @@
             <a class="header__logo" href="#">Web<span class="header__logo--color">Studio</span></a>
             <nav class="header__nav">
                 <ul class="header__nav__list">
-                    <li class="header__nav__item"><a class="header__nav__item__link" href="./index.html">Студія</a></li>
-                    <li class="header__nav__item"><a class="header__nav__item__link"
-                            href="./portfolio.html">Портфоліо</a>
+                    <li class="header__nav__item ">
+                        <a class="header__nav__item__link" href="./index.html">Студія</a>
                     </li>
-                    <li class="header__nav__item"><a class="header__nav__item__link" href="#">Контакти</a></li>
+                    <li class="header__nav__item header__nav__item--studio">
+                        <a class="header__nav__item__link" href="./portfolio.html">Портфоліо</a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a class="header__nav__item__link" href="#">Контакти</a>
+                    </li>
                 </ul>
             </nav>
             <ul class="header__contacts__list">
-                <li class="header__contacts__item"><a class="header__contacts--item__link"
-                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="header__contacts__item"><a class="header__contacts--item__link" href="tel:380961111111">+38
-                        096
-                        111 11 11</a></li>
+                <li class="header__contacts__item">
+                    <a class="header__contacts--item__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="header__contacts__item">
+                    <a class="header__contacts--item__link" href="tel:380961111111">+38 096 111 11 11</a>
+                </li>
             </ul>
         </div>
     </header>
@@ -59,77 +66,119 @@
                 <ul class="project__list">
                     <li class="project--item">
                         <div class="project--item__div">
-                        <img class="project--item__img" src="./img/portfolio/img.jpg" alt="комп'ютер">
+                            <img class="project--item__img" src="./img/portfolio/img.jpg" alt="комп'ютер">
+                            <div class="overlay">
+                                <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем
+                                    функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості
+                                    про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
                         <h2 class="project--item__title">Технокряк</h2>
                         <p class="project--item__text">Веб-сайт</p>
-                        </div>
-                        <div class="overlay">
-                            <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                        </div>
                     </li>
+
                     <li class="project--item">
-                        <img class="project--item__img" src="./img/portfolio/img-1.jpg" alt="два баскитболіста">
+                        <div class="project--item__div">
+                            <img class="project--item__img" src="./img/portfolio/img-1.jpg" alt="два баскитболіста">
+                            <div class="overlay">
+                                <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем
+                                    функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості
+                                    про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
                         <h2 class="project--item__title">Постер New Orlean vs Golden Star</h2>
                         <p class="project--item__text">Дизайн</p>
-                        <div class="overlay">
-                            <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                        </div>
                     </li>
+
                     <li class="project--item">
-                        <img class="project--item__img" src="./img/portfolio/img-2.jpg" alt="логотип ресторану">
+                        <div class="project--item__div">
+                            <img class="project--item__img" src="./img/portfolio/img-2.jpg" alt="логотип ресторану">
+                            <div class="overlay">
+                                <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем
+                                    функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості
+                                    про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
                         <h2 class="project--item__title">Ресторан Seafood</h2>
                         <p class="project--item__text">Додаток</p>
-                        <div class="overlay">
-                            <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                        </div>
                     </li>
+
                     <li class="project--item">
-                        <img class="project--item__img" src="./img/portfolio/img-3.jpg" alt="навушники">
+                        <div class="project--item__div">
+                            <img class="project--item__img" src="./img/portfolio/img-3.jpg" alt="навушники">
+                            <div class="overlay">
+                                <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем
+                                    функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості
+                                    про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
                         <h2 class="project--item__title">Проєкт Prime</h2>
                         <p class="project--item__text">Маркетинг</p>
-                        <div class="overlay">
-                            <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                        </div>
                     </li>
+
                     <li class="project--item">
-                        <img class="project--item__img" src="./img/portfolio/img-4.jpg" alt="два бокси">
+                        <div class="project--item__div">
+                            <img class="project--item__img" src="./img/portfolio/img-4.jpg" alt="два бокси">
+                            <div class="overlay">
+                                <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем
+                                    функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості
+                                    про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
                         <h2 class="project--item__title">Проєкт Boxes</h2>
                         <p class="project--item__text">Додаток</p>
-                        <div class="overlay">
-                            <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                        </div>
                     </li>
+
                     <li class="project--item">
-                        <img class="project--item__img" src="./img/portfolio/img-5.jpg" alt="комп'ютер">
+                        <div class="project--item__div">
+                            <img class="project--item__img" src="./img/portfolio/img-5.jpg" alt="комп'ютер">
+                            <div class="overlay">
+                                <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем
+                                    функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості
+                                    про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
                         <h2 class="project--item__title">Inspiration has no Borders</h2>
                         <p class="project--item__text">Веб-сайт</p>
-                        <div class="overlay">
-                            <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                        </div>
                     </li>
+
                     <li class="project--item">
-                        <img class="project--item__img" src="./img/portfolio/img-6.jpg" alt="журнал">
+                        <div class="project--item__div">
+                            <img class="project--item__img" src="./img/portfolio/img-6.jpg" alt="журнал">
+                            <div class="overlay">
+                                <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем
+                                    функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості
+                                    про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
                         <h2 class="project--item__title">Видання Limited Edition</h2>
                         <p class="project--item__text">Дизайн</p>
-                        <div class="overlay">
-                            <p class="overlay__text"></p>
-                        </div>
                     </li>
+
                     <li class="project--item">
-                        <img class="project--item__img" src="./img/portfolio/img-7.jpg" alt="етикетка">
+                        <div class="project--item__div">
+                            <img class="project--item__img" src="./img/portfolio/img-7.jpg" alt="етикетка">
+                            <div class="overlay">
+                                <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем
+                                    функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості
+                                    про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
                         <h2 class="project--item__title">Проєкт LAB</h2>
                         <p class="project--item__text">Маркетинг</p>
-                        <div class="overlay">
-                            <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                        </div>
                     </li>
+
                     <li class="project--item">
-                        <img class="project--item__img" src="./img/portfolio/img-8.jpg" alt="робта за ноутбуком">
+                        <div class="project--item__div">
+                            <img class="project--item__img" src="./img/portfolio/img-8.jpg" alt="робта за ноутбуком">
+                            <div class="overlay">
+                                <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем
+                                    функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості
+                                    про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
                         <h2 class="project--item__title">Growing Business</h2>
                         <p class="project--item__text">Додаток</p>
-                        <div class="overlay">
-                            <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                        </div>
                     </li>
                 </ul>
             </div>
@@ -154,4 +203,5 @@
         </div>
     </footer>
 </body>
+
 </html>
