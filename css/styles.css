@@ -356,8 +356,7 @@ body {
     width: 30px;
     height: 30px;
     fill: #000000;
-    stroke-width: 1px;
-    stroke: rgba(0, 0, 0, 0.10);
+    stroke-width: 1px #FFF;
     border-radius: 50%;
     display: flex;
     align-items: center;
