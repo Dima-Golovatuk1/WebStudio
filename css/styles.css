@@ -874,6 +874,11 @@ letter-spacing: 0.12px;
 
 
 /* project */
+.portfolio__section__project{
+    margin-bottom: 94px;
+}
+
+
 .project__list {
     display: flex;
     flex-wrap: wrap;
