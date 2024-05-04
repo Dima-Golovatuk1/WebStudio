@@ -27,7 +27,7 @@ body {
 
 
 /* Header */
-.header__nav__item--studio::after{
+.header__nav__item--underscore::after{
     content: "";
     display: block;
     height: 4px;
