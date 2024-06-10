@@ -13,7 +13,7 @@
     line-height: 162.5%;
     letter-spacing: 0.48px;
     padding: 6px 22px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color $main-animation;
 
 
     &__list {

@@ -249,7 +249,7 @@ body {
   background: rgba(33, 150, 243, 0);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: rgba(255, 255, 255, 0.6);
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 125%;
