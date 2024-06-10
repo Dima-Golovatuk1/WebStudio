@@ -10,7 +10,7 @@
 
 
 .hero__title {
-    color: var(--logo-footer-color);
+    color: $main-color;
     text-align: center;
     font-size: 44px;
     font-weight: 900;
@@ -24,8 +24,8 @@
 
 
 .hero__button {
-    font-family: "Roboto", sans-serif;
-    color: var(--logo-footer-color);
+    font-family: $main-font;
+    color: $main-color;
     text-align: center;
     font-size: 16px;
     font-weight: 700;

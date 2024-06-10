@@ -1,20 +1,11 @@
-.portfolio__section--button{
+.portfolio__section--button {
     margin-bottom: 48px;
 }
 
 
-.portfolio__button__list {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    gap: 8px;
-    margin-top: 94px;
-}
-
-
-.portfolio__button{
+.portfolio__button {
     border-radius: 4px;
-    background: #F5F4FA;
+    background: $main-background-color;
     color: var(--title-color);
     text-align: center;
     font-size: 16px;
@@ -22,14 +13,22 @@
     line-height: 162.5%;
     letter-spacing: 0.48px;
     padding: 6px 22px;
-    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
-.portfolio__button:hover,
-.portfolio__button:focus{
-    color: var(--logo-footer-color);
-    background-color: #2196F3;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 8px;
+        margin-top: 94px;
+    }
 
+
+    &:hover,
+    &:focus {
+        color: $logo-color;
+        background-color: $link-color;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    }
 }

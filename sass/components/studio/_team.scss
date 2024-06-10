@@ -1,5 +1,5 @@
 .team {
-    background: #F5F4FA;
+    background: $main-background-color;
 }
 
 .team__title {
@@ -22,37 +22,38 @@
 
 .team__item {
     border-radius: 0px 0px 4px 4px;
-    background: #FFF;
+    background: $main-color;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+
+    &__img {
+        width: 270px;
+        height: 260px;
+    }
+
+    &__content {
+        padding: 16px 32px;
+    }
+
+    &__title {
+        color: $title-color;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.48px;
+        margin-bottom: 10px;
+    }
+
+
+    &__text {
+        color: $main-text-color;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.48px;
+    }
 }
 
-
-.team__item__img {
-    width: 270px;
-    height: 260px;
-}
-
-.team__item__content {
-    padding: 16px 32px;
-}
-
-.team__item__title {
-    color: var(--title-color);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.48px;
-    margin-bottom: 10px;
-}
-
-
-.team__item__text {
-    color: var(--main-text-color);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.48px;
-}
 
 
 .team__list__icons {
@@ -71,13 +72,13 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
-.team__item__icons:hover,
-.team__item__icons:focus {
-    background-color: #2196F3;
+    &:hover,
+    &:focus {
+        background-color: $link-color;
+    }
 }
 
 
@@ -90,7 +91,5 @@
 
 .team__item__icons:hover .team__item__social,
 .team__item__icons:focus .team__item__social {
-    fill: #FFFFFF;
+    fill: $logo-color;
 }
-
-
