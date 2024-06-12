@@ -11,18 +11,18 @@
 }
 
 
-.project__item__text {
+.project__item__div--text {
     padding: 20px 24px;
 }
 
 
-.project--item {
+.project__item {
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc((100% - 3 * 30px) / 3);
     border: 1px solid #EEE;
 
-
+    
     &:hover {
         border: 1px solid #EEE;
         background: $main-color;
@@ -32,18 +32,20 @@
     
     &__title {
         color: $title-color;
+        font-family: $main-font;
         font-size: 18px;
         font-weight: 700;
-        line-height: 200%;
+        line-height: 200%; 
         letter-spacing: 1.08px;
     }
     
     
     &__text {
         color: $main-text-color;
+        font-family: $main-font;
         font-size: 16px;
         font-weight: 400;
-        line-height: 187.5%;
+        line-height: 187.5%; 
         letter-spacing: 0.48px;
     }
     

@@ -782,42 +782,44 @@ body {
   margin-top: -30px;
 }
 
-.project__item__text {
+.project__item__div--text {
   padding: 20px 24px;
 }
 
-.project--item {
+.project__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
   border: 1px solid #EEE;
 }
-.project--item:hover {
+.project__item:hover {
   border: 1px solid #EEE;
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-.project--item__title {
+.project__item__title {
   color: #212121;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 200%;
   letter-spacing: 1.08px;
 }
-.project--item__text {
+.project__item__text {
   color: #757575;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 187.5%;
   letter-spacing: 0.48px;
 }
-.project--item__img {
+.project__item__img {
   position: relative;
 }
-.project--item:hover .overlay {
+.project__item:hover .overlay {
   transform: translateX(0);
 }
-.project--item__div {
+.project__item__div {
   position: relative;
   overflow: hidden;
 }
