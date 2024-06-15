@@ -144,13 +144,11 @@ body {
 .footer {
   background: #2F303A;
 }
-
 .footer .container {
   padding-top: 60px;
   padding-bottom: 20px;
   display: flex;
 }
-
 .footer__logo {
   color: #2196F3;
   font-family: "Raleway", sans-serif;
@@ -161,7 +159,6 @@ body {
 .footer__logo--color {
   color: #FFF;
 }
-
 .footer__contacts__list {
   display: flex;
   flex-direction: column;
@@ -169,7 +166,6 @@ body {
   padding-bottom: 60px;
   padding-top: 20px;
 }
-
 .footer__contacts__link {
   width: 231px;
   height: 21px;
@@ -180,11 +176,9 @@ body {
   line-height: 171.429%;
   letter-spacing: 0.42px;
 }
-
 .footer__div:nth-child(1) {
   margin-right: 70px;
 }
-
 .footer__icons__title {
   color: #FFF;
   font-size: 14px;
@@ -193,12 +187,10 @@ body {
   text-transform: uppercase;
   padding-bottom: 17px;
 }
-
 .footer__list__icons {
   display: flex;
   gap: 10px;
 }
-
 .footer__item__icons {
   width: 44px;
   height: 44px;
@@ -209,27 +201,21 @@ body {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .footer__item__icon {
   width: 20px;
   height: 20px;
   fill: #FFFFFF;
 }
-
-.footer__item__icons:focus,
-.footer__item__icons:hover {
+.footer__item__icons:focus, .footer__item__icons:hover {
   background-color: #2196F3;
 }
-
 .footer__div:nth-child(2) {
   margin-right: 93px;
 }
-
 .footer__div:nth-child(3) {
   display: flex;
   flex-direction: column;
 }
-
 .footer__title {
   color: #FFF;
   font-size: 14px;
@@ -238,11 +224,9 @@ body {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-
 .footer__form {
   display: flex;
 }
-
 .footer__form__input {
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -257,7 +241,6 @@ body {
   width: 358px;
   padding: 16px 15px;
 }
-
 .footer__form__button {
   color: #FFF;
   text-align: center;
@@ -277,7 +260,6 @@ body {
   gap: 10px;
   margin-left: 12px;
 }
-
 .footer__form__button__icon {
   width: 24px;
   height: 24px;
@@ -742,7 +724,7 @@ body {
   border-color: #2196F3;
 }
 
-.portfolio__section--button {
+.portfolio__button__section {
   margin-bottom: 48px;
 }
 
