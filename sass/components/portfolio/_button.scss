@@ -1,19 +1,19 @@
-.portfolio__button__section {
+.portfolio__section {
     margin-bottom: 48px;
-}
 
 
-.portfolio__button {
-    border-radius: 4px;
-    background: $main-background-color;
-    color: var(--title-color);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 162.5%;
-    letter-spacing: 0.48px;
-    padding: 6px 22px;
-    transition: background-color $main-animation;
+    &__item {
+        border-radius: 4px;
+        background: $main-background-color;
+        color: var(--title-color);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 162.5%;
+        letter-spacing: 0.48px;
+        padding: 6px 22px;
+        transition: background-color $main-animation;
+    }
 
 
     &__list {
@@ -25,8 +25,8 @@
     }
 
 
-    &:hover,
-    &:focus {
+    &__item:hover,
+    &__item:focus {
         color: $logo-color;
         background-color: $link-color;
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
