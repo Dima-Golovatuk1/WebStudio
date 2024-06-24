@@ -3,12 +3,10 @@
 
 
     &__item {
+        @include text($title-color, $main-font, 16px, 500);
         border-radius: 4px;
         background: $main-background-color;
-        color: var(--title-color);
         text-align: center;
-        font-size: 16px;
-        font-weight: 500;
         line-height: 162.5%;
         letter-spacing: 0.48px;
         padding: 6px 22px;

@@ -6,34 +6,29 @@
     background-position: center;
     background-size: cover;
     height: 600px;
-}
 
 
-.hero__title {
-    color: $main-color;
-    text-align: center;
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 136%;
-    letter-spacing: 2.64px;
-    text-transform: uppercase;
-    width: 692px;
-    margin: 0 auto;
-    padding-top: 200px;
-}
+    &__title {
+        @include text($main-color, $main-font, 44px, 900);
+        text-align: center;
+        line-height: 136%;
+        letter-spacing: 2.64px;
+        text-transform: uppercase;
+        width: 692px;
+        margin: 0 auto;
+        padding-top: 200px;
+    }
 
 
-.hero__button {
-    font-family: $main-font;
-    color: $main-color;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 187.5%;
-    letter-spacing: 0.96px;
-    background: #2196F3;
-    width: 216px;
-    height: 50px;
-    margin: 0 auto;
-    display: block;
+    &__button {
+        @include text($main-color, $main-font, 16px, 700);
+        text-align: center;
+        line-height: 187.5%;
+        letter-spacing: 0.96px;
+        background: #2196F3;
+        width: 216px;
+        height: 50px;
+        margin: 0 auto;
+        display: block;
+    }
 }

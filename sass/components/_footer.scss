@@ -10,10 +10,7 @@
 
 
     &__logo {
-        color: $link-color;
-        font-family: $logo-font;
-        font-size: 26px;
-        font-weight: 700;
+        @include text($link-color, $logo-font, 26px, 700);
         letter-spacing: 0.78px;
 
 
@@ -52,9 +49,7 @@
 
 
     &__icons__title {
-        color: $main-color;
-        font-size: 14px;
-        font-weight: 700;
+        @include text ($main-color, $main-font, 14px, 700);
         letter-spacing: 0.42px;
         text-transform: uppercase;
         padding-bottom: 17px;
@@ -119,13 +114,11 @@
 
 
     &__form__input {
+        @include text($footer-link-color, $main-font, 16px, 400);
         border-radius: 4px;
         border: 1px solid rgba(255, 255, 255, 0.30);
         background: rgba(33, 150, 243, 0.00);
         box-shadow: $footer-box-shadow;
-        color: $footer-link-color;
-        font-family: $main-font;
-        font-size: 16px;
         font-weight: 400;
         line-height: 125%;
         letter-spacing: 0.48px;
@@ -135,11 +128,8 @@
 
 
     &__form__button {
-        color: $main-color;
+        @include text($main-color, $main-font, 16px, 700);
         text-align: center;
-        font-family: $main-font;
-        font-size: 16px;
-        font-weight: 700;
         line-height: 187.5%;
         letter-spacing: 0.96px;
         border-radius: 4px;

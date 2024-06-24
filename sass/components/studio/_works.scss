@@ -1,8 +1,6 @@
 .works__title {
-    color: $title-color;
+    @include text($title-color, $main-font, 36px, 700);
     text-align: center;
-    font-size: 36px;
-    font-weight: 700;
     letter-spacing: 1.08px;
     padding-bottom: 50px;
 }
@@ -26,11 +24,8 @@
     
     
     &__text {
-        color: $main-color;
+        @include text($main-color, $main-font, 14px, 700);
         text-align: center;
-        font-family: $main-font;
-        font-size: 14px;
-        font-weight: 700;
         letter-spacing: 0.42px;
         text-transform: uppercase;
         background: rgba(47, 48, 58, 0.80);
