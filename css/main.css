@@ -54,7 +54,9 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  outline: 1px solid red;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section {
@@ -79,7 +81,8 @@ body {
 .header .container {
   display: flex;
   align-items: center;
-  padding: 25px 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .header__logo {

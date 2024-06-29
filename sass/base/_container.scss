@@ -1,9 +1,47 @@
+// // mobile 480px
+// @media screen and (min-width: 480px){
+//     .container {
+//         width: 480px;
+//         margin: 0 auto;
+//     }
+
+
+//     .section {
+//         margin-bottom: 60px;
+//     }
+// }
+
+
+// // tablet 768px
+// @media screen and (min-width: 768px){
+//     .container {
+//         width: 768px;
+//         margin: 0 auto;
+//         padding: 0 15px;
+//     }
+
+
+//     .section {
+//         margin-bottom: 60px;
+//     }
+// }
+
+
+// // desctop 1200px
+// @media screen and (min-width: 1200px) {
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    // padding: 0 15px;
+    outline: 1px solid red;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
+
 
 .section {
     margin-bottom: 94px;
 }
+
+// }

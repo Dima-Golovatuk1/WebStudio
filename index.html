@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -22,7 +22,13 @@
     <!-- header -->
     <header class="header">
         <div class="container">
-            <a class="header__logo animate__animated animate__zoomInDown" href="#">Web<span class="header__logo--color">Studio</span></a>
+            <a class="header__logo animate__animated animate__zoomInDown" href="#">Web<span
+                    class="header__logo--color">Studio</span></a>
+            <button class="header__menu__button" type="button">
+                <svg class="header__menu__icon" width="16px" height="12px">
+                    <use href="./img/icons/symbol-defs.svg#icon-menu"></use>
+                </svg>
+            </button>
             <nav class="header__nav">
                 <ul class="header__nav__list">
                     <li class="header__nav__item header__nav__item--underscore">
@@ -61,15 +67,13 @@
     </header>
 
     <!-- main -->
-    <main>
-        <!-- hero -->
+    <!-- <main>
         <section class="hero section">
             <div class="container">
                 <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
                 <button class="hero__button" data-modal-open type="button">Замовити послугу</button>
             </div>
         </section>
-        <!-- advantages -->
         <section class="advantages section">
             <div class="container">
                 <ul class="advantages__list">
@@ -100,7 +104,6 @@
                 </ul>
             </div>
         </section>
-        <!-- works -->
         <section class="works section">
             <div class="container">
                 <h2 class="works__title">Чим ми займаємося</h2>
@@ -122,7 +125,6 @@
                 </ul>
             </div>
         </section>
-        <!-- team -->
         <section class="team">
             <div class="container">
                 <h2 class="team__title">Наша команда</h2>
@@ -347,11 +349,11 @@
                 </ul>
             </div>
         </section>
-    </main>
+    </main> -->
 
 
     <!-- footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container">
             <div class="footer__div">
                 <a class="footer__logo" href="#">Web<span class="footer__logo--color">Studio</span></a>
@@ -413,10 +415,10 @@
                 </form>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <!--modal  -->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="close__button" data-modal-close><svg class="close__button__icon">
                     <use href="./img/icons/symbol-defs.svg#icon-close"></use>
@@ -436,7 +438,8 @@
                 <div>
                     <label class="hero__form__label" for="tel">Телефон</label>
                     <div class="modal__imput__thumb">
-                        <input class="hero__form__input" type="tel" id="tel" pattern="^[ 0-9]+$" placeholder="" required>
+                        <input class="hero__form__input" type="tel" id="tel" pattern="^[ 0-9]+$" placeholder=""
+                            required>
                         <svg class="hero__form__input-icon">
                             <use href="./img/icons/symbol-defs.svg#icon-phone"></use>
                         </svg>
@@ -469,7 +472,7 @@
             </form>
         </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script> -->
 </body>
 
 </html>
