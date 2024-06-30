@@ -57,6 +57,7 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    outline: 1px solid red;
   }
   .section {
     margin-bottom: 60px;
@@ -84,7 +85,7 @@ body {
     margin-bottom: 94px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 480px) {
   .header .container {
     display: flex;
     align-items: center;
@@ -113,6 +114,86 @@ body {
     width: 40px;
     height: 40px;
     fill: #000000;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header__nav__item--underscore {
+    color: #2196F3;
+  }
+  .header__nav__item--underscore::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    background: #2196F3;
+    position: relative;
+    top: 30px;
+  }
+  .header .container {
+    display: flex;
+    align-items: center;
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+  .header__logo {
+    color: #2196F3;
+    font-family: "$family" sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    display: flex;
+  }
+  .header__logo--color {
+    color: #000000;
+    margin-right: 88px;
+  }
+  .header__menu__icon {
+    display: none;
+  }
+  .header__nav {
+    color: "Roboto", sans-serif;
+    font-family: "$family" sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    display: flex;
+  }
+  .header__nav__list {
+    display: flex;
+    gap: 50px;
+    margin-right: 96px;
+  }
+  .header__nav__item__link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header__nav__item__link:hover {
+    color: #2196F3;
+  }
+  .header__contacts__list {
+    color: "Roboto", sans-serif;
+    font-family: "$family" sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.24px;
+    gap: 10px;
+  }
+  .header__contacts--item__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .contact__item__icons__social {
+    fill: currentColor;
+  }
+  .header__contacts__item {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header__contacts__item:hover,
+  .header__contacts__item:focus {
+    color: #2196F3;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -175,6 +256,8 @@ body {
     letter-spacing: 0.28px;
     display: flex;
     gap: 30px;
+    display: flex;
+    flex-direction: row;
   }
   .header__contacts--item__link {
     display: flex;
