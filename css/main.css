@@ -254,7 +254,6 @@ body {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
-    display: flex;
     gap: 30px;
     display: flex;
     flex-direction: row;
