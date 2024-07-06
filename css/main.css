@@ -386,16 +386,16 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 600px;
+  height: 400px;
 }
 .hero__title {
   color: #FFF;
   font-family: "$family" sans-serif;
-  font-size: 44px;
+  font-size: 26px;
   font-weight: 900;
   text-align: center;
-  line-height: 136%;
-  letter-spacing: 2.64px;
+  line-height: 161%;
+  letter-spacing: 1.56px;
   text-transform: uppercase;
   width: 692px;
   margin: 0 auto;
@@ -416,6 +416,43 @@ body {
   display: block;
 }
 
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/Img.png");
+    background-color: #2F303A;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+  }
+  .hero__title {
+    color: #FFF;
+    font-family: "$family" sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 136%;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    width: 692px;
+    margin: 0 auto;
+    padding-top: 200px;
+  }
+  .hero__button {
+    color: #FFF;
+    font-family: "$family" sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 187.5%;
+    letter-spacing: 0.96px;
+    background: #2196F3;
+    width: 216px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+  }
+}
 .backdrop {
   position: fixed;
   top: 0;
