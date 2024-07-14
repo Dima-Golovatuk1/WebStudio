@@ -1,37 +1,57 @@
-.hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url('../img/Img.png');
+.hero{
+    // background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    //     url('../img/Img.png');
     background-color: #2F303A;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 
     &__title {
         @include text($main-color, $main-font, 26px, 900);
-        text-align: center;
         line-height: 161%;
         letter-spacing: 1.56px;
         text-transform: uppercase;
-        width: 692px;
-        margin: 0 auto;
-        padding-top: 200px;
+        padding-top: 118px;
+        margin-bottom: 30px
     }
 
 
     &__button {
         @include text($main-color, $main-font, 16px, 700);
-        text-align: center;
         line-height: 187.5%;
         letter-spacing: 0.96px;
         background: #2196F3;
-        width: 216px;
         height: 50px;
         margin: 0 auto;
         display: block;
+        border-radius: 4px;
+        padding: 10px 24px;
     }
 }
+
+
+// tablet 768px
+@media screen and (min-width: 768px) {
+    .hero{
+        // background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        //     url('../img/Img.png');
+        background-color: #2F303A;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+
 
 
 // desctop 1200px
@@ -47,27 +67,16 @@
 
 
         &__title {
-            @include text($main-color, $main-font, 44px, 900);
+            font-size: 44px;
             text-align: center;
             line-height: 136%;
             letter-spacing: 2.64px;
-            text-transform: uppercase;
-            width: 692px;
-            margin: 0 auto;
             padding-top: 200px;
         }
 
 
         &__button {
-            @include text($main-color, $main-font, 16px, 700);
-            text-align: center;
-            line-height: 187.5%;
-            letter-spacing: 0.96px;
-            background: #2196F3;
-            width: 216px;
-            height: 50px;
-            margin: 0 auto;
-            display: block;
+            padding: 10px 32px;
         }
     }
 }

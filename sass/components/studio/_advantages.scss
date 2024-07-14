@@ -1,15 +1,16 @@
 .advantages__list {
     display: flex;
+    flex-direction: column;
     gap: 30px;
 }
 
 
-.advantages__item{
+.advantages__item {
     &::before {
         content: "";
         display: block;
         background-size: 70px 70px;
-        width: 270px;
+        width: 450px;
         height: 120px;
         border-radius: 4px;
         background-color: $main-background-color;
@@ -36,21 +37,86 @@
     &:nth-child(4)::before {
         background-image: url('../img/advantages/astronaut.png');
     }
-    
-    
-    
+
+
+
     &__title {
         @include text($title-color, $main-font, 14px, 700);
         letter-spacing: 0.42px;
         text-transform: uppercase;
         padding-bottom: 10px;
         padding-top: 30px;
+        text-align: center
     }
-    
-    
+
+
     &__text {
         @include text($main-text-color, $main-font, 14px, 400);
         line-height: 171.429%;
         letter-spacing: 0.42px;
+    }
+}
+
+
+
+
+// desctop 1200px
+@media screen and (min-width: 1200px) {
+    .advantages__list {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+
+    .advantages__item {
+        &::before {
+            content: "";
+            display: block;
+            background-size: 70px 70px;
+            width: 270px;
+            height: 120px;
+            border-radius: 4px;
+            background-color: $main-background-color;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+
+        &:nth-child(1)::before {
+            background-image: url('../img/advantages/antenna.png');
+        }
+
+
+        &:nth-child(2)::before {
+            background-image: url('../img/advantages/clock.png');
+        }
+
+
+        &:nth-child(3)::before {
+            background-image: url('../img/advantages/diagram.png');
+        }
+
+
+        &:nth-child(4)::before {
+            background-image: url('../img/advantages/astronaut.png');
+        }
+
+
+
+        &__title {
+            @include text($title-color, $main-font, 14px, 700);
+            letter-spacing: 0.42px;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+            padding-top: 30px;
+        }
+
+
+        &__text {
+            @include text($main-text-color, $main-font, 14px, 400);
+            line-height: 171.429%;
+            letter-spacing: 0.42px;
+        }
     }
 }
