@@ -1,20 +1,22 @@
+// mobile 480px
 .team {
     background: $main-background-color;
 }
 
 .team__title {
-    @include text($title-color, $main-font, 36px, 700);
+    @include text($title-color, $main-font, 28px, 700);
+    letter-spacing: 0.84px;
     text-align: center;
-    letter-spacing: 1.08px;
-    margin-bottom: 50px;
-    padding-top: 94px;
+    margin-bottom: 30px;
+    padding-top: 60px;
 }
 
 
 .team__list {
     display: flex;
+    flex-direction: column;
     gap: 30px;
-    padding-bottom: 94px;
+    padding-bottom: 60px;
 }
 
 
@@ -25,12 +27,13 @@
 
 
     &__img {
-        width: 270px;
-        height: 260px;
+        width: 450px;
+        height: 460px;
     }
 
     &__content {
-        padding: 16px 32px;
+        padding-top: 30px;
+        padding-bottom: 16px;
     }
 
     &__title {
@@ -42,7 +45,7 @@
 
 
     &__text {
-        color: $main-text-color;
+        @include text($main-text-color, $main-font, 16px, 400);
         text-align: center;
         font-size: 16px;
         font-weight: 400;
@@ -57,7 +60,7 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
 }
 
 
@@ -88,4 +91,53 @@
 .team__item__icons:hover .team__item__social,
 .team__item__icons:focus .team__item__social {
     fill: $logo-color;
+}
+
+
+
+
+// tablet 768px
+@media screen and (min-width: 768px) {
+    .team__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    
+    .team__item {
+        &__img {
+            width: 354px;
+            height: 374px;
+        }
+    }
+}
+
+
+// desctop 1200px
+@media screen and (min-width: 1200px) {
+    
+    .team__title {
+        @include text($title-color, $main-font, 36px, 700);
+        letter-spacing: 1.08px;
+        padding-top: 94px;
+    }
+    
+    
+    .team__list {
+        padding-bottom: 94px;
+    }
+    
+    
+    .team__item {
+        &__img {
+            width: 270px;
+            height: 260px;
+        }
+    }
+    
+    
+    
+    .team__list__icons {
+        padding-bottom: 30px;
+    }
 }
