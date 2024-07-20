@@ -1,38 +1,38 @@
+// mobile 480px
 .partners {
-    padding: 94px 0;
+    padding-top: 60px;
 }
 
 
 .partners__title-icons {
-    @include text($title-color, $main-font, 36px, 700);
+    @include text($title-color, $main-font, 28px, 700);
+    letter-spacing: 0.84px;
     text-align: center;
-    letter-spacing: 1.08px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 
 .partners__icons__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    padding-bottom: 94px;
+    padding-bottom: 60px;
 }
 
 
 .partners__icons__item {
-    display: flex;
+    height: 92px;
 }
 
 
-
-
 .partners__item__icon-partners {
-    width: 170px;
+    width: 210px;
     height: 92px;
     fill: #AFB1B8;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
-    padding: 16px 32px;
+    padding: 16px 52px;
     transition: fill $main-animation, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
@@ -40,5 +40,39 @@
     &:hover {
         fill: $link-color;
         border-color: $link-color;
+    }
+}
+
+
+// tablet 768px
+@media screen and (min-width: 768px) {
+
+    .partners__item__icon-partners {
+        width: 226px;
+        padding: 16px 60px;
+}
+}
+
+// desctop 1200px
+@media screen and (min-width: 1200px) {
+    .partners {
+        padding-top: 94px;
+    }
+
+
+    .partners__title-icons {
+        @include text($title-color, $main-font, 36px, 700);
+        letter-spacing: 1.08px;
+        padding-bottom: 50px;
+    }
+
+
+    .partners__icons__list {
+        padding-bottom: 94px;
+    }
+
+    .partners__item__icon-partners {
+        width: 170px;
+        padding: 16px 32px;
     }
 }
