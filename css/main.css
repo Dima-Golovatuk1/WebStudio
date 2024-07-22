@@ -976,7 +976,7 @@ section {
   }
 }
 .portfolio__section {
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 .portfolio__section__item {
   color: #212121;
@@ -993,10 +993,12 @@ section {
 }
 .portfolio__section__list {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-content: center;
+  flex-wrap: wrap;
   gap: 8px;
-  margin-top: 94px;
+  margin-top: 60px;
+  width: 326px;
 }
 .portfolio__section__item:hover, .portfolio__section__item:focus {
   color: #FFFFFF;
@@ -1004,6 +1006,25 @@ section {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (min-width: 768px) {
+  .portfolio__section {
+    margin-bottom: 30px;
+  }
+  .portfolio__section__list {
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio__section {
+    margin-bottom: 48px;
+  }
+  .portfolio__section__list {
+    margin-top: 94px;
+  }
+}
 .portfolio__section__project {
   margin-bottom: 94px;
 }
