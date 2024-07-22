@@ -96,7 +96,7 @@ section {
 
 .header__logo {
   color: #2196F3;
-  font-family: "$family" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.72px;
@@ -139,7 +139,7 @@ section {
   }
   .header__nav {
     color: "Roboto", sans-serif;
-    font-family: "$family" sans-serif;
+    font-family: #2196F3;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
@@ -158,7 +158,7 @@ section {
   }
   .header__contacts__list {
     color: "Roboto", sans-serif;
-    font-family: "$family" sans-serif;
+    font-family: #757575;
     font-size: 12px;
     font-weight: 500;
     display: flex;
@@ -189,7 +189,7 @@ section {
   }
   .header__logo {
     color: #2196F3;
-    font-family: "$family" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.78px;
@@ -212,59 +212,50 @@ section {
 }
 .footer {
   background: #2F303A;
-}
-.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
+}
+.footer__div:not(:last-child) {
+  margin-bottom: 60px;
 }
 .footer__logo {
   color: #2196F3;
-  font-family: "$family" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.72px;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .footer__logo--color {
   color: #FFF;
 }
 .footer__contacts__list {
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  gap: 8px;
-  padding-bottom: 60px;
 }
 .footer__contacts__link {
-  width: 231px;
-  height: 21px;
-  flex-shrink: 0;
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-weight: 400;
-  line-height: 171.429%;
+  line-height: 171%;
   letter-spacing: 0.42px;
 }
 .footer__icons__title {
   color: #FFF;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .footer__list__icons {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
-  margin-bottom: 60px;
 }
 .footer__item__icons {
   width: 44px;
@@ -284,7 +275,7 @@ section {
 .footer__item__icons:focus, .footer__item__icons:hover {
   background-color: #2196F3;
 }
-.footer__title {
+.footer__form__title {
   color: #FFF;
   font-size: 14px;
   font-weight: 700;
@@ -293,33 +284,27 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.footer__form {
-  display: flex;
-  flex-direction: column;
-}
 .footer__form__input {
   color: rgba(255, 255, 255, 0.6);
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: rgba(33, 150, 243, 0);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  font-weight: 400;
   line-height: 125%;
   letter-spacing: 0.48px;
-  width: 90vw;
+  width: 100%;
   padding: 16px 15px;
   margin-bottom: 20px;
 }
 .footer__form__button {
   color: #FFF;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  text-align: center;
-  line-height: 187.5%;
+  line-height: 187%;
   letter-spacing: 0.96px;
   border-radius: 4px;
   background: #2196F3;
@@ -330,7 +315,6 @@ section {
   align-items: center;
   padding: 10px 28px;
   gap: 10px;
-  margin-left: 12px;
   margin: 0 auto;
 }
 .footer__form__button__icon {
@@ -339,11 +323,6 @@ section {
   fill: #FFF;
 }
 
-@media screen and (min-width: 480px) {
-  .footer__form__input {
-    width: 450px;
-  }
-}
 @media screen and (min-width: 768px) {
   .footer .container {
     flex-wrap: wrap;
@@ -408,7 +387,7 @@ section {
 }
 .hero__title {
   color: #FFF;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 26px;
   font-weight: 900;
   line-height: 161%;
@@ -419,7 +398,7 @@ section {
 }
 .hero__button {
   color: #FFF;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 187.5%;
@@ -531,7 +510,7 @@ section {
 }
 .hero__form__title {
   color: #212121;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-align: center;
@@ -540,7 +519,7 @@ section {
 }
 .hero__form__label {
   color: #757575;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.12px;
@@ -596,7 +575,7 @@ section {
 
 .hero__form__label-comment {
   color: #757575;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 400;
   font-style: normal;
@@ -606,7 +585,7 @@ section {
 
 .hero__form__input-comment {
   color: rgba(117, 117, 117, 0.5);
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -631,7 +610,7 @@ section {
 
 .hero__form__label-confirmation {
   color: #757575;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 171.429%;
@@ -652,7 +631,7 @@ section {
 
 .hero__form__button {
   color: #FFF;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
   width: 200px;
@@ -704,7 +683,7 @@ section {
 }
 .advantages__item__title {
   color: #212121;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
@@ -715,7 +694,7 @@ section {
 }
 .advantages__item__text {
   color: #757575;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 171.429%;
@@ -762,7 +741,7 @@ section {
   }
   .works__title {
     color: #212121;
-    font-family: "$family" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
     text-align: center;
@@ -783,7 +762,7 @@ section {
   }
   .works__item__text {
     color: #FFF;
-    font-family: "$family" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 700;
     text-align: center;
@@ -805,7 +784,7 @@ section {
 
 .team__title {
   color: #212121;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 0.84px;
@@ -835,7 +814,7 @@ section {
 }
 .team__item__title {
   color: #212121;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-align: center;
@@ -844,7 +823,7 @@ section {
 }
 .team__item__text {
   color: #757575;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -898,7 +877,7 @@ section {
 @media screen and (min-width: 1200px) {
   .team__title {
     color: #212121;
-    font-family: "$family" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
@@ -921,7 +900,7 @@ section {
 
 .partners__title-icons {
   color: #212121;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 0.84px;
@@ -967,7 +946,7 @@ section {
   }
   .partners__title-icons {
     color: #212121;
-    font-family: "$family" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
@@ -986,7 +965,7 @@ section {
 }
 .portfolio__section__item {
   color: #212121;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   border-radius: 4px;
@@ -1059,7 +1038,7 @@ section {
 }
 .project__item__title {
   color: #212121;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 200%;
@@ -1067,7 +1046,7 @@ section {
 }
 .project__item__text {
   color: #757575;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 187.5%;
@@ -1096,7 +1075,7 @@ section {
 }
 .overlay__text {
   color: #FFF;
-  font-family: "$family" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
