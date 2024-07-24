@@ -4,7 +4,7 @@
 
 
     &__item {
-        @include text($title-color, $main-font, 16px, 500);
+        @include text($title-color, $main-font, 13px, 500);
         border-radius: 4px;
         background: $main-background-color;
         text-align: center;
@@ -22,7 +22,7 @@
         flex-wrap: wrap;
         gap: 8px;
         margin-top: 60px;
-        width: 326px;
+        width: 100%;
     }
 
 
@@ -31,6 +31,19 @@
         color: $logo-color;
         background-color: $link-color;
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .portfolio__section {
+        &__item {
+            @include text($title-color, $main-font, 14px, 500);
+        }
+
+
+        &__list {
+            width: 326px;
+        }
     }
 }
 
