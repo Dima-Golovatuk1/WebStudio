@@ -18,9 +18,9 @@
     }
 }
 
-.header__nav {
-    // display: none;
-}
+// .header__nav {
+//     display: none;
+// }
 
 
 .header__contacts__list {
@@ -157,5 +157,6 @@
         letter-spacing: 0.28px;
         gap: 30px;
         flex-direction: row;
+        align-items: center;
     }
 }
