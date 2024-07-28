@@ -86,60 +86,60 @@ section {
     margin-bottom: 94px;
   }
 }
-input[type=checkbox],
-label {
+.header__nav__burger[type=checkbox],
+.header__nav__burger__label {
   display: none;
 }
 
 /* mobile menu */
 @media screen and (max-width: 767px) {
-  label {
+  .header__nav__burger__label {
     display: block;
     height: 30px;
     width: 30px;
     margin-left: auto;
     position: relative;
   }
-  label:hover {
+  .header__nav__burger__label:hover {
     cursor: pointer;
   }
-  label span {
+  .header__nav__burger__label span {
     top: 15px;
   }
-  label span,
-  label span::before,
-  label span::after {
+  .header__nav__burger__label span,
+  .header__nav__burger__label span::before,
+  .header__nav__burger__label span::after {
     content: "";
     display: block;
     width: 25px;
     height: 2px;
     background: #333;
     position: absolute;
-    z-index: 5;
+    z-index: 3;
     right: 0;
     transition: 0.3s;
   }
-  label span::before {
+  .header__nav__burger__label span::before {
     top: -8px;
   }
-  label span::after {
+  .header__nav__burger__label span::after {
     top: 8px;
   }
   .header__nav__list {
     display: none;
   }
-  input[type=checkbox]:checked ~ .header__nav__list {
+  .header__nav__burger[type=checkbox]:checked ~ .header__nav__list {
     display: flex;
     flex-direction: column;
   }
-  input[type=checkbox]:checked ~ label span {
+  .header__nav__burger[type=checkbox]:checked ~ .header__nav__burger__label span {
     transform: rotate(-45deg);
   }
-  input[type=checkbox]:checked ~ label span::before {
+  .header__nav__burger[type=checkbox]:checked ~ .header__nav__burger__label span::before {
     top: 0;
     transform: rotate(0);
   }
-  input[type=checkbox]:checked ~ label span::after {
+  .header__nav__burger[type=checkbox]:checked ~ .header__nav__burger__label span::after {
     top: 0;
     transform: rotate(90deg);
   }
@@ -524,6 +524,8 @@ label {
   }
 }
 .backdrop {
+  overflow: scroll;
+  z-index: 5;
   position: fixed;
   top: 0;
   left: 0;
@@ -552,8 +554,8 @@ label {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 450px;
-  min-height: 609px;
+  min-width: 100%;
+  min-height: 100%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
@@ -726,6 +728,12 @@ label {
   display: block;
 }
 
+@media screen and (min-width: 480px) {
+  .modal {
+    min-width: 450px;
+    min-height: 609px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .modal {
     min-width: 528px;

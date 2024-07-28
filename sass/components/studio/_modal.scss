@@ -1,5 +1,7 @@
 // mobile 480px
 .backdrop {
+    overflow: scroll;
+    z-index: 5;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,8 +33,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 450px;
-    min-height: 609px;
+    min-width: 100%;
+    min-height: 100%;
     transform: translate(-50%, -50%) scale(1);
     transition: transform $main-animation;
     border-radius: 4px;
@@ -223,6 +225,14 @@
     letter-spacing: 0.96px;
     margin: 0 auto;
     display: block;
+}
+
+
+@media screen and (min-width: 480px) {
+    .modal {
+        min-width: 450px;
+        min-height: 609px;
+    }
 }
 
 
