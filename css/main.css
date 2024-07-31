@@ -125,10 +125,10 @@ section {
   .header__nav__burger__label span::after {
     top: 8px;
   }
-  .header__nav__list {
+  .mobile__menu {
     display: none;
   }
-  .header__nav__burger[type=checkbox]:checked ~ .header__nav__list {
+  .header__nav__burger[type=checkbox]:checked ~ .mobile__menu {
     display: flex;
     flex-direction: column;
   }
@@ -143,7 +143,7 @@ section {
     top: 0;
     transform: rotate(90deg);
   }
-  .header__nav__list {
+  .mobile-menu {
     position: absolute;
     top: 0;
     left: 0;
@@ -151,13 +151,72 @@ section {
     height: 100%;
     padding: 48px 40px;
     background: #fff;
-    box-shadow: 0 12px 8px #ececec;
     z-index: 2;
-  }
-  .header__nav__list li {
-    margin: 15px 0;
+    transform: translateX(100%);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
+.mobile__nav__list {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+
+.mobile__nav__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mobile__contacts__list:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mobile__contacts__list {
+  margin-bottom: 64px;
+}
+
+.mobile__contacts--item__tel--link {
+  color: #2196F3;
+  font-family: "Roboto", sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.68px;
+}
+
+.mobile__contacts--item__email--link {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+
+.mobile__social {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.mobile__social__item:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-right: 10px;
+}
+
+.mobile__social__link {
+  color: #2196F3;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px; /* 122.222% */
+  letter-spacing: 0.36px;
+}
+
 .header .container {
   display: flex;
   align-items: center;
@@ -178,11 +237,18 @@ section {
   color: #000000;
 }
 
+.header__nav__list {
+  display: none;
+}
+
 .header__contacts__list {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
   .header .container {
     padding-top: 21px;
     padding-bottom: 21px;

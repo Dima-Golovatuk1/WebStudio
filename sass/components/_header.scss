@@ -18,9 +18,9 @@
     }
 }
 
-// .header__nav {
-//     display: none;
-// }
+.header__nav__list {
+    display: none;
+}
 
 
 .header__contacts__list {
@@ -28,8 +28,17 @@
 }
 
 
+@media screen and (min-width: 480px) {
+    
+}
+
+
 // tablet 768px
 @media screen and (min-width: 768px) {
+    .mobile-menu{
+        display: none;
+    }
+
     .header .container {
         padding-top: 21px;
         padding-bottom: 21px;
