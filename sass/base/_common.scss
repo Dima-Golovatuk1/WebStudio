@@ -8,9 +8,39 @@ section{
 }
 
 
+// mobile 480px
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 1px solid red;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 480px) {
+    .container {
+        width: 480px;
+    }
+}
+
+
+// tablet 768px
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+
 // desctop 1200px
 @media screen and (min-width: 1200px) {
-    section{
+    .container {
+        width: 1200px;
+    }
+
+
+    .section {
         margin-bottom: 94px;
     }
 }

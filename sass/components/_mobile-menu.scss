@@ -64,7 +64,7 @@
         transform: rotate(90deg);
     }
 
-    .mobile-menu {
+    .mobile__menu {
         position: fixed;
         top: 0;
         left: 0;
@@ -73,7 +73,7 @@
         padding: 48px 40px;
         background: #fff;
         z-index: 2;
-        transform: translateX(0);
+        transform: translateX(100);
         transition: transform $main-animation;
         overflow: hidden;
         opacity: 0;

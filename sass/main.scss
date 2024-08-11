@@ -5,12 +5,11 @@
 //Base
 @import "./base/reset";
 @import "./base/common";
-@import "./base/container";
 
 
 
 //Components
-@import "./components/_mobile-menu";
+@import "./components/mobile-menu";
 @import "./components/header";
 @import "./components/footer";
 
