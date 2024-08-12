@@ -163,14 +163,17 @@ section {
     font-weight: 500;
     letter-spacing: 0.8px;
   }
-  .mobile__nav__item:not(:last-child) {
-    margin-bottom: 32px;
+  .place {
+    color: #2196F3;
   }
-  .mobile__contacts__list:not(:last-child) {
+  .mobile__nav__item:not(:last-child) {
     margin-bottom: 32px;
   }
   .mobile__contacts__list {
     margin-bottom: 64px;
+  }
+  .mobile__contacts__item:not(:last-child) {
+    margin-bottom: 32px;
   }
   .mobile__contacts--item__tel--link {
     color: #2196F3;

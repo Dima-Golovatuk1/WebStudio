@@ -94,6 +94,11 @@
         letter-spacing: 0.8px;
     }
 
+
+    .place{
+        color: $link-color;
+    }
+
     .mobile__nav__item:not(:last-child) {
         margin-bottom: 32px;
     }
@@ -102,16 +107,19 @@
     .mobile__nav__item__link {}
 
 
-    .mobile__contacts__list:not(:last-child) {
-        margin-bottom: 32px;
+    .mobile__contacts__list {
+
     }
 
     .mobile__contacts__list {
         margin-bottom: 64px;
+
     }
 
 
-    .mobile__contacts__item {}
+    .mobile__contacts__item:not(:last-child) {
+        margin-bottom: 32px;
+    }
 
 
     .mobile__contacts--item__link {}
