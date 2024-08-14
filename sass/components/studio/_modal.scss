@@ -235,18 +235,13 @@
     }
 }
 
-@media screen and (max-height: 560px) and (max-width: 900px){
-    .modal {
-        width: 90%;
-        height: 90%;
-    }
-}
+
 
 // desctop 1200px
 @media screen and (min-width: 1200px) {
     .modal {
-        min-width: 528px;
-        min-height: 581px;
+        width: 528px;
+        height: 581px;
     }
 
 
@@ -254,5 +249,13 @@
         @include text($main-text-color, $main-font, 14px, 400);
         line-height: 171.429%;
         letter-spacing: 0.42px;
+    }
+}
+
+
+@media screen and (max-height: 560px){
+    .modal {
+        width: 90%;
+        height: 90%;
     }
 }
