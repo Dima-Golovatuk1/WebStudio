@@ -620,6 +620,7 @@ section {
   background: #FFF;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   padding: 40px;
+  overflow: auto;
 }
 
 .close__button {
@@ -789,6 +790,12 @@ section {
   .modal {
     width: 450px;
     height: 609px;
+  }
+}
+@media screen and (max-height: 450px) and (max-width: 609px) {
+  .modal {
+    width: 90%;
+    height: 90%;
   }
 }
 @media screen and (min-width: 1200px) {
