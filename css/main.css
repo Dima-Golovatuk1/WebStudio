@@ -790,6 +790,7 @@ section {
   .modal {
     width: 450px;
     height: 609px;
+    overflow: hidden;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -810,6 +811,7 @@ section {
   .modal {
     width: 90%;
     height: 90%;
+    overflow: auto;
   }
 }
 .advantages__list {
