@@ -127,7 +127,7 @@
     .mobile__contacts--item__tel--link {
         color: #2196F3;
         font-family: "Roboto", sans-serif;
-        font-size: 34px;
+        font-size: clamp(1.563rem, 0.438rem + 5.63vw, 2.125rem);
         font-style: normal;
         font-weight: 500;
         line-height: normal;
@@ -137,7 +137,7 @@
     .mobile__contacts--item__email--link {
         color: #757575;
         font-family: "Roboto", sans-serif;
-        font-size: 24px;
+        font-size: clamp(1.25rem, 0.75rem + 2.5vw, 1.5rem);
         font-weight: 500;
         letter-spacing: 0.48px;
 
@@ -147,6 +147,7 @@
         display: flex;
         gap: 10px;
         align-items: center;
+        flex-wrap: wrap;
     }
 
 
