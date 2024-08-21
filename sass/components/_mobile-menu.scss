@@ -73,16 +73,19 @@
         padding: 48px 40px;
         background: #fff;
         z-index: 2;
+        transition: color $main-animation;
         transform: translateX(100);
         transition: transform $main-animation;
         overflow: hidden;
         opacity: 0;
         visibility: hidden;
         pointer-events: none;
+        transition: opacity $main-animation;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
+
 
     .mobile__nav {}
 
