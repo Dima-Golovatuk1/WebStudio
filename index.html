@@ -156,18 +156,27 @@
             <div class="container">
                 <h2 class="works__title">Чим ми займаємося</h2>
                 <ul class="works__list">
-                    <li class="works__item"><img class="works__item__img" src="./img/about/img1.jpg"
-                            alt="робота за планшетом та комп'ютером" width="250">
+                    <li class="works__item">
+                            <img class="works__item__img" 
+                            src="#"
+                            srcset="./img/about/img.jpg 1x, ./img/about/img@2x.jpg 2x"
+                            alt="робота за планшетом та комп'ютером">
                         <p class="works__item__text">Десктопні додатки</p>
                     </li>
 
-                    <li class="works__item"><img class="works__item__img" src="./img/about/img2.jpg"
-                            alt="робота за ноутбуком" width="250">
+                    <li class="works__item">
+                        <img class="works__item__img" 
+                        src="#"
+                        srcset="./img/about/img2.jpg 1x, ./img/about/img2@2x.jpg 2x"
+                        alt="робота за планшетом та комп'ютером">
                         <p class="works__item__text">Мобільні додатки</p>
                     </li>
 
-                    <li class="works__item"><img class="works__item__img" src="./img/about/img3.jpg"
-                            alt="робота за планшетом" width="250">
+                    <li class="works__item">
+                        <img class="works__item__img" 
+                        src="#"
+                        srcset="./img/about/img3.jpg 1x, ./img/about/img3@2x.jpg 2x"
+                        alt="робота за планшетом та комп'ютером">
                         <p class="works__item__text">Дизайнерські рішення</p>
                     </li>
                 </ul>
@@ -180,9 +189,18 @@
                 <h2 class="team__title">Наша команда</h2>
                 <ul class="team__list">
                     <li class="team__item">
-                        <img class="team__item__img" src="./img/team/Igor.jpg"
-                            alt="Чодовік в коречневій рубашці в окулярах та з охайною бородою і світлим волосям"
-                            width="250">
+                        <picture class="team__item__img">
+                            <source srcset="./img/team/igor/Igor-desktop.jpg 1x,
+                                            ./img/team/igor/Igor-desktop@2x.jpg 2x" media="(min-width:1200px)">
+
+                            <source srcset="./img/team/igor/Igor-tablet.jpg 1x,
+                                            ./img/team/igor/Igor-tablet@2x.jpg 2x" media="(min-width:768px)">
+
+                            <source srcset="./img/team/igor/Igor-mobile.jpg 1x,
+                                            ./img/team/igor/Igor-mobile@2x.jpg 2x" media="(max-width:767px)">
+                            <img src="#"
+                                alt="Чодовік в коречневій рубашці в окулярах та з охайною бородою і світлим волосям">
+                        </picture>
                         <div class="team__item__content">
                             <h4 class="team__item__title">Ігор Дем'яненко</h4>
                             <p class="team__item__text">Product Designer</p>
@@ -223,8 +241,17 @@
                     </li>
 
                     <li class="team__item">
-                        <img class="team__item__img" src="./img/team/Olga.jpg"
-                            alt="Жінка в окудях з світлим волосям та в чорному піджаку" width="250">
+                        <picture class="team__item__img">
+                            <source srcset="./img/team/olga/Olga-desktop.jpg   1x,
+                                            ./img/team/olga/Olga-desktop@2x.jpg 2x" media="(min-width:1200px)">
+
+                            <source srcset="./img/team/olga/Olga-tablet.jpg   1x,
+                                            ./img/team/olga/Olga-tablet@2x.jpg 2x" media="(min-width:768px)">
+
+                            <source srcset="./img/team/olga/Olga-mobile.jpg    1x,
+                                            ./img/team/olga/Olga-mobile@2x.jpg 2x" media="(max-width:767px)">
+                            <img src="#" alt="Жінка в окудях з світлим волосям та в чорному піджаку">
+                        </picture>
                         <div class="team__item__content">
                             <h4 class="team__item__title">Ольга Рєпіна</h4>
                             <p class="team__item__text">Frontend Developer</p>
@@ -264,8 +291,17 @@
                         </ul>
                     </li>
                     <li class="team__item">
-                        <img class="team__item__img" src="./img/team/Mukola.jpg"
-                            alt="Чоловік в синій рубашці та темносвітлим волосям" width="250">
+                        <picture class="team__item__img">
+                            <source srcset="./img/team/Mukola/Mukola-desktop.jpg     1x,
+                                            ./img/team/Mukola/Mukola-desktop@2x.jpg  2x" media="(min-width:1200px)">
+
+                            <source srcset="./img/team/Mukola/Mukola-tablet.jpg    1x,
+                                            ./img/team/Mukola/Mukola-tablet@2x.jpg 2x" media="(min-width:768px)">
+
+                            <source srcset="./img/team/Mukola/Mukola-mobile.jpg    1x,
+                                            ./img/team/Mukola/Mukola-mobile@2x.jpg 2x" media="(max-width:767px)">
+                            <img src="#" alt="Чоловік в синій рубашці та темносвітлим волосям">
+                        </picture>
                         <div class="team__item__content">
                             <h4 class="team__item__title">Микола Тарасов</h4>
                             <p class="team__item__text">Marketing</p>
@@ -305,8 +341,17 @@
                         </ul>
                     </li>
                     <li class="team__item">
-                        <img class="team__item__img" src="./img/team/Mihail.jpg"
-                            alt="Чоловік в чорній кофті з окулярами, бородою і темним волосям " height="250">
+                        <picture class="team__item__img">
+                            <source srcset="./img/team/mihail/img-Mihail-desktop.png    1x,
+                                            ./img/team/mihail/img-Mihail-desktop@2x.jpg  2x" media="(min-width:1200px)">
+
+                            <source srcset="./img/team/mihail/img-Mihail-tablet.jpg    1x,
+                                            ./img/team/mihail/img-Mihail-tablet@2x.jpg 2x" media="(min-width:768px)">
+
+                            <source srcset="./img/team/mihail/img-Mihail-mobile.jpg    1x,
+                                            ./img/team/mihail/img-Mihail-mobile@2x.jpg 2x" media="(max-width:767px)">
+                                            <img src="#" alt="Чоловік в чорній кофті з окулярами, бородою і темним волосям ">
+                        </picture>
                         <div class="team__item__content">
                             <h4 class="team__item__title">Михайло Єрмаков</h4>
                             <p class="team__item__text">UI Designer</p>
