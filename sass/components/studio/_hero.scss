@@ -1,6 +1,6 @@
 .hero{
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url('../img/Img.png');
+        url('../img/background/img-mobile.png');
     background-color: #2F303A;
     background-repeat: no-repeat;
     background-position: center;
@@ -34,12 +34,41 @@
     }
 }
 
+@media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero{
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                url('../img/background/img-mobile@2x.png');
+        }
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero{
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url('../img/background/img-tablet.png');
+        }
+
+
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero{
+                background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                    url('../img/background/img-tablet@2x.png');
+            }
+    }
+}
+
 
 // desctop 1200px
 @media screen and (min-width: 1200px) {
     .hero {
-        // background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        //     url('../img/Img.png');
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url('../img/background/img-desktop.png');
         background-color: #2F303A;
         background-repeat: no-repeat;
         background-position: center;
@@ -60,4 +89,15 @@
             padding: 10px 32px;
         }
     }
+
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero{
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                url('../img/background/img-desktop@2x.png');
+        }
+}
 }
