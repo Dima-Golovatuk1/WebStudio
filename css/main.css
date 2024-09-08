@@ -52,7 +52,7 @@ body {
 }
 
 section {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .container {
@@ -78,7 +78,7 @@ section {
     width: 1200px;
   }
   .section {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
   }
 }
 .header__nav__burger[type=checkbox],
@@ -246,6 +246,13 @@ section {
   .header .container {
     padding-top: 21px;
     padding-bottom: 21px;
+  }
+  .header__contacts__list {
+    color: #757575;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.24px;
   }
   .header__nav__item--underscore {
     color: #2196F3;
@@ -456,8 +463,6 @@ section {
 
 @media screen and (min-width: 768px) {
   .footer .container {
-    padding-left: 61px;
-    padding-right: 71px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -890,6 +895,10 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .advantages__item__title {
+    display: flex;
+    justify-content: start;
+  }
   .advantages__item {
     flex-basis: calc((100% - 60px) / 2);
   }
@@ -1067,9 +1076,6 @@ section {
     letter-spacing: 1.08px;
     padding-top: 94px;
   }
-  .team__list {
-    padding-bottom: 94px;
-  }
   .team__item__img {
     width: 270px;
     height: 260px;
@@ -1212,6 +1218,7 @@ section {
 .project__list {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .project__item__div--text {

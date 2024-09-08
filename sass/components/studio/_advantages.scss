@@ -46,7 +46,7 @@
         text-transform: uppercase;
         padding-bottom: 10px;
         padding-top: 30px;
-        text-align: center
+        text-align: center;
     }
 
 
@@ -63,6 +63,12 @@
     .advantages__list {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+
+    .advantages__item__title{ 
+        display: flex;
+        justify-content: start
     }
 
 

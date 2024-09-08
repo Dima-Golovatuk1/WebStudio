@@ -44,7 +44,13 @@
         padding-bottom: 21px;
     }
 
-        
+    .header__contacts__list{
+        color: #757575;
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.24px;
+    }
 
     .header__nav__item--underscore {
         color: $link-color;
