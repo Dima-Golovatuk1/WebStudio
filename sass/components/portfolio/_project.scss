@@ -6,7 +6,10 @@
 .project__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+}
+
+.project__item:not(:last-child){
+    margin-bottom: 30px;
 }
 
 

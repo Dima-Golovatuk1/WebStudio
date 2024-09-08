@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
@@ -126,7 +127,7 @@
         <section  class="portfolio__section__project">
             <div class="container">
                 <ul class="project__list">
-                    <li class="project__item">
+                    <li data-aos="fade-right" class="project__item">
                         <div class="project__item__div">
                             <picture class="project__item__img">
                                 <source srcset="./img/portfolio/img1/img1-desktop.jpg 1x,
@@ -153,7 +154,7 @@
                         </div>
                     </li>
 
-                    <li class="project__item">
+                    <li data-aos="fade-left" class="project__item">
                         <div class="project__item__div">
                             <picture class="project__item__img">
                                 <source srcset="./img/portfolio/img2/img2-desktop.jpg 1x,
@@ -179,7 +180,7 @@
                     </div>
                     </li>
 
-                    <li class="project__item">
+                    <li data-aos="fade-right" class="project__item">
                         <div class="project__item__div">
                             <picture class="project__item__img">
                                 <source srcset="./img/portfolio/img3/img3-desktop.jpg 1x,
@@ -205,7 +206,7 @@
                     </div>
                     </li>
 
-                    <li class="project__item">
+                    <li data-aos="fade-left" class="project__item">
                         <div class="project__item__div">
                             <picture class="project__item__img">
                                 <source srcset="./img/portfolio/img4/img4-desktop.jpg 1x,
@@ -232,7 +233,7 @@
                     </li>
 
                     <li class="project__item">
-                        <div class="project__item__div">
+                        <div data-aos="fade-right" class="project__item__div">
                             <picture class="project__item__img">
                                 <source srcset="./img/portfolio/img5/img5-desktop.jpg 1x,
                                                 ./img/portfolio/img5/img5-desktop@2x.jpg 2x" media="(min-width:1200px)">
@@ -257,7 +258,7 @@
                     </div>
                     </li>
 
-                    <li class="project__item">
+                    <li data-aos="fade-left" class="project__item">
                         <div class="project__item__div">
                             <picture class="project__item__img">
                                 <source srcset="./img/portfolio/img6/img6-desktop.jpg 1x,
@@ -284,7 +285,7 @@
                     </li>
 
                     <li class="project__item">
-                        <div class="project__item__div">
+                        <div data-aos="fade-right" class="project__item__div">
                             <picture class="project__item__img">
                                 <source srcset="./img/portfolio/img7/img7-desktop.jpg 1x,
                                                 ./img/portfolio/img7/img7-desktop@2x.jpg 2x" media="(min-width:1200px)">
@@ -309,7 +310,7 @@
                     </div>
                     </li>
 
-                    <li class="project__item">
+                    <li data-aos="fade-left" class="project__item">
                         <div class="project__item__div">
                             <picture class="project__item__img">
                                 <source srcset="./img/portfolio/img8/img8-desktop.jpg 1x,
@@ -335,7 +336,7 @@
                     </div>
                     </li>
 
-                    <li class="project__item">
+                    <li data-aos="fade-right" class="project__item">
                         <div class="project__item__div">
                             <picture class="project__item__img">
                                 <source srcset="./img/portfolio/img9/img9-desktop.jpg 1x,
@@ -434,6 +435,10 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
