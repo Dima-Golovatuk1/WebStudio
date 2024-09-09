@@ -50,6 +50,7 @@
         transform: translateX(0);
     }
 
+
     .header__nav__burger[type="checkbox"]:checked ~ .header__nav__burger__label span {
         transform: rotate(-45deg);
     }
